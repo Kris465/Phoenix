@@ -1,0 +1,16 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+#vscode
+.vscode
+
+#project files
+chromedriver_win32
+chromeprofile
+/novels
