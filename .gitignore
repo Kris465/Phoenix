@@ -14,3 +14,8 @@ venv.bak/
 chromedriver_win32
 chromeprofile
 /novels
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class

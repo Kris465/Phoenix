@@ -3,10 +3,12 @@ from typing import List
 
 from loguru import logger
 
+from parser.parser import Parser
+
 
 class Controller:
     def __init__(self, tasks: List[dict]) -> None:
-        self.task = tasks
+        self.tasks = tasks
 
     async def execute_task(self, task) -> None:
         if task["action"] == "parse":
