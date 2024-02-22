@@ -14,7 +14,7 @@ class Controller:
         if task["action"] == "parse":
             pars = Parser(task)
             await pars.parse()
-            logger.info(f"Parsing task is created / {task['title']}")
+            logger.info(f"Parsing finished / {task['title']}")
         elif task["action"] == "translate":
             trans = TrManager(task["title"], task["language"], task["config"])
             await asyncio.sleep(3)

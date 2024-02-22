@@ -1,0 +1,18 @@
+{
+    "mesmerizingmemoirs.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "52shuku.vip": [
+        {
+            "tag": "article",
+            "extra_tag": "article-content",
+            "word": "下一页",
+            "tool": "zh"
+        }
+    ]
+}

@@ -14,9 +14,9 @@ class Parser:
         webpage_name = re.sub(r'^https?://(?:www\.)?(.*?)/.*$', r'\1',
                               self.task["url"])
         logger.info(f"Webpage name is {webpage_name}")
-        if self.task["mod"] == 1:
+        if self.task["mod"] == "Stepper":
             stepper = Stepper(self.task, webpage_name)
-            stepper.parse()
-        elif self.task["mod"] == 2:
+            await stepper.parse()
+        elif self.task["mod"] == "Collector":
             collector = Collector(self.task, webpage_name)
-            collector.parse()
+            await collector.parse()

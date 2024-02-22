@@ -3,21 +3,20 @@ from loguru import logger
 
 class UserMenu:
     def __init__(self) -> None:
-        self.task = []
+        self.tasks = []
 
     def menu(self):
         print("What is your will, Master?\n")
         task = {}
         option = ''
         while option != 4:
-            try:
-                title = input("Title: ")
-                option = int(input("1.Parse\n2.Translate\n3.Save\n4.Exit\n"))
-                task = self.create_task(title, option)
-                self.task.append(task)
-            except Exception as e:
-                logger.error(e)
+            title = input("Title: ")
+            if not title:
                 break
+            option = int(input("1.Parse\n2.Translate\n3.Save\n4.Exit\n"))
+            task = self.create_task(title, option)
+            self.tasks.append(task)
+        return self.tasks
 
     def url_generator(self):
         while True:
@@ -29,7 +28,7 @@ class UserMenu:
     def create_task(self, title, option):
         match option:
             case 1:
-                mod = int(input("Mod:\n 1.Stepper\n2.Collector"))
+                mod = int(input("Mod:\n1.Stepper\n2.Collector\n"))
                 chapter = int(input("Chapter: "))
                 if mod == 1:
                     url = input("url: ")
