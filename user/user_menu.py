@@ -41,7 +41,7 @@ class UserMenu:
                     urls = list(self.url_generator())
                     return {"action": "parse",
                             "title": title,
-                            "mod": "Stepper",
+                            "mod": "Collector",
                             "chapter": chapter,
                             "url": urls}
                 else:

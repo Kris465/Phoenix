@@ -3,7 +3,7 @@
         {
             "tag": "div",
             "extra_tag": "entry-content",
-            "word": "Next",
+            "sort": "---",
             "tool": "requests"
         }
     ],
@@ -11,8 +11,16 @@
         {
             "tag": "article",
             "extra_tag": "article-content",
-            "word": "下一页",
+            "sort": "-----",
             "tool": "zh"
+        }
+    ],
+    "fourseasonsforest.wordpress.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "sort": "noSort",
+            "tool": "requests"
         }
     ]
 }
