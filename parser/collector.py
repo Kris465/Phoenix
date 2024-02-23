@@ -24,12 +24,14 @@ class Collector:
         match working_set['sort']:
             case "noSort":
                 links = self.task['url']
-            case "magic_sort":
+            case "area_sort":
                 page = self.get_webpage(self.task['url'][0],
                                         working_set['tool'])
-                links = page.find_all('a')
-                print(links)
-                return
+                area = page.find(working_set["area_tag"],
+                                 working_set["area_extra_tag"])
+                links = [link["href"] for link in area.find_all("a")]
+            case "tail_sort":
+                pass
 
         chapters = {}
         for link in links:
