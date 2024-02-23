@@ -4,6 +4,7 @@ from typing import List
 from loguru import logger
 
 from parser.parser import Parser
+from translator.translator import TrManager
 
 
 class Controller:

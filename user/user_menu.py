@@ -23,7 +23,8 @@ class UserMenu:
             url = input("urls: \n")
             if not url:
                 break
-            yield url
+            if url.strip():
+                yield url
 
     def create_task(self, title, option):
         match option:
@@ -41,7 +42,7 @@ class UserMenu:
                     urls = list(self.url_generator())
                     return {"action": "parse",
                             "title": title,
-                            "mod": "Stepper",
+                            "mod": "Collector",
                             "chapter": chapter,
                             "url": urls}
                 else:

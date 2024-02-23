@@ -11,8 +11,14 @@ class Parser:
         self.task = task
 
     async def parse(self):
-        webpage_name = re.sub(r'^https?://(?:www\.)?(.*?)/.*$', r'\1',
-                              self.task["url"])
+        if isinstance(self.task['url'], str):
+            webpage_name = re.sub(r'^https?://(?:www\.)?(.*?)/.*$', r'\1',
+                                  self.task["url"])
+        elif isinstance(self.task['url'], list):
+            webpage_name = re.sub(r'^https?://(?:www\.)?(.*?)/.*$', r'\1',
+                                  self.task["url"][0])
+        else:
+            return
         logger.info(f"Webpage name is {webpage_name}")
         if self.task["mod"] == "Stepper":
             stepper = Stepper(self.task, webpage_name)
