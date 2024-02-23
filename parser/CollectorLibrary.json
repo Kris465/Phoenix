@@ -11,7 +11,7 @@
         {
             "tag": "article",
             "extra_tag": "article-content",
-            "sort": "-----",
+            "sort": "magic_sort",
             "tool": "zh"
         }
     ],

@@ -292,3 +292,25 @@
 2024-02-23 at 03:15:46 | INFO | test2 / https://fourseasonsforest.wordpress.com/2022/07/29/rmfwm-96/ / 200
 2024-02-23 at 03:15:46 | INFO | test2 / https://fourseasonsforest.wordpress.com/2022/08/08/rmfwm-97/ / 200
 2024-02-23 at 03:15:46 | INFO | Parsing finished / test2
+2024-02-23 at 03:44:07 | INFO | translate all / test2 / en
+2024-02-23 at 03:44:07 | INFO | New IAM_TOKEN is asked and set
+2024-02-23 at 03:45:49 | INFO | translate all / test2 / en
+2024-02-23 at 03:45:51 | INFO | test2 / 95 is translated
+2024-02-23 at 03:45:54 | INFO | test2 / 96 is translated
+2024-02-23 at 03:45:56 | INFO | test2 / 97 is translated
+2024-02-23 at 03:45:56 | INFO | json file with translation for test2 is written
+2024-02-23 at 03:45:56 | INFO | Translating task is created / test2
+2024-02-23 at 03:47:26 | INFO | translate from / test2 / en
+2024-02-23 at 03:47:28 | INFO | test2 / 96 is translated
+2024-02-23 at 03:47:30 | INFO | test2 / 97 is translated
+2024-02-23 at 03:47:30 | INFO | json file with translation for test2 is written
+2024-02-23 at 03:47:30 | INFO | Translating task is created / test2
+2024-02-23 at 03:58:20 | INFO | Webpage name is 52shuku.vip
+2024-02-23 at 04:01:18 | INFO | Webpage name is 52shuku.vip
+2024-02-23 at 04:02:55 | INFO | Webpage name is 52shuku.vip
+2024-02-23 at 04:02:56 | INFO | test3 / https://www.52shuku.vip/yanqing/hwog.html / 200
+2024-02-23 at 04:06:22 | INFO | Webpage name is 52shuku.vip
+2024-02-23 at 04:06:23 | INFO | test3 / https://www.52shuku.vip/yanqing/hwog.html / 200
+2024-02-23 at 04:07:50 | INFO | Webpage name is 52shuku.vip
+2024-02-23 at 04:07:50 | INFO | test3 / https://www.52shuku.vip/yanqing/hwog.html / 200
+2024-02-23 at 04:07:50 | INFO | Parsing finished / test3

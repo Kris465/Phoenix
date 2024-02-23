@@ -23,7 +23,8 @@ class UserMenu:
             url = input("urls: \n")
             if not url:
                 break
-            yield url
+            if url.strip():
+                yield url
 
     def create_task(self, title, option):
         match option:

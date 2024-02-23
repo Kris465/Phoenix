@@ -24,8 +24,12 @@ class Collector:
         match working_set['sort']:
             case "noSort":
                 links = self.task['url']
-            case "---":
-                pass
+            case "magic_sort":
+                page = self.get_webpage(self.task['url'][0],
+                                        working_set['tool'])
+                links = page.find_all('a')
+                print(links)
+                return
 
         chapters = {}
         for link in links:
