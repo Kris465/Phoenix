@@ -65,12 +65,9 @@ class UserMenu:
             case 3:
                 file = int(input("1.in-one-file\n"
                                  "2.for-chapters\n"))
-                doc_type = int(input("1.txt\n"
-                                     "2.docx\n"))
-                if file and doc_type in [1, 2]:
+                if file in [1, 2]:
                     return {"action": "save",
                             "title": title,
-                            "file": file,
-                            "doc_type": doc_type}
+                            "file": file}
                 else:
                     logger.warning("Unknown files / UserMenu / create_task()")
