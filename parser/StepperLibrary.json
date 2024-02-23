@@ -14,5 +14,37 @@
             "word": "下一页",
             "tool": "zh"
         }
+    ],
+    "translatingboredom.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "Chapter",
+            "tool": "requests"
+        }
+    ],
+    "chaospotatotl.wordpress.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "---",
+            "tool": "requests"
+        }
+    ],
+    "novellatte.blogspot.com": [
+        {
+            "tag": "div",
+            "extra_tag": "post",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "novelfortress.my.id": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "Next",
+            "tool": "requests"
+        }
     ]
 }

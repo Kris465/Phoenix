@@ -2,6 +2,7 @@ import asyncio
 from typing import List
 
 from loguru import logger
+from domain.filemanager import FileManager
 
 from parser.parser import Parser
 from translator.translator import TrManager
@@ -22,8 +23,8 @@ class Controller:
             await trans.translate()
             logger.info(f"Translating task is created / {task['title']}")
         elif task["action"] == "save":
-            # Дописать обработку файлов и папок
-            pass
+            fileManeger = FileManager(task)
+            await fileManeger.save()
 
     async def run(self) -> None:
         tasks = [self.execute_task(task) for task in self.tasks]

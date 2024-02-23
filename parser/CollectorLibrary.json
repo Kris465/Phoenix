@@ -3,7 +3,7 @@
         {
             "tag": "div",
             "extra_tag": "entry-content",
-            "sort": "---",
+            "sort": "noSort",
             "tool": "requests"
         }
     ],
@@ -11,8 +11,10 @@
         {
             "tag": "article",
             "extra_tag": "article-content",
-            "sort": "magic_sort",
-            "tool": "zh"
+            "sort": "area_sort",
+            "tool": "zh",
+            "area_tag": "ul",
+            "area_extra_tag":"list clearfix"
         }
     ],
     "fourseasonsforest.wordpress.com": [
@@ -21,6 +23,25 @@
             "extra_tag": "entry-content",
             "sort": "noSort",
             "tool": "requests"
+        }
+    ],
+    "chaospotatotl.wordpress.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "translatingboredom.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "sort": "area_sort",
+            "tool": "requests",
+            "area_tag": "ul",
+            "area_extra_tag":"wp-block-latest-posts__list is-grid columns-3 aligncenter wp-block-latest-posts"
+
         }
     ]
 }
