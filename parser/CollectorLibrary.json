@@ -43,5 +43,13 @@
             "area_extra_tag":"wp-block-latest-posts__list is-grid columns-3 aligncenter wp-block-latest-posts"
 
         }
+    ],
+    "rainbowspace1.wordpress.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "sort": "noSort",
+            "tool": "requests"
+        }
     ]
 }

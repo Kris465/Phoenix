@@ -46,5 +46,21 @@
             "word": "Next",
             "tool": "requests"
         }
+    ],
+    "rainbowspace1.wordpress.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "---",
+            "tool": "requests"
+        }
+    ],
+    "dummynovels.com": [
+        {
+            "tag": "div",
+            "extra_tag": "site-content",
+            "word": "Next",
+            "tool": "requests"
+        }
     ]
 }

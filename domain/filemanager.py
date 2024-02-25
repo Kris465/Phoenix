@@ -12,7 +12,8 @@ class FileManager:
             with open(file_path, 'r', encoding="utf-8") as file:
                 project = json.load(file)
             flag = True
-        elif os.path.exists(f"novels/{self.task['title']}/{self.task['title']}.json"):
+        elif os.path.exists(
+                f"novels/{self.task['title']}/{self.task['title']}.json"):
             file_path = f"novels/{self.task['title']}/{self.task['title']}.json"
             with open(file_path, 'r', encoding="utf-8") as file:
                 project = json.load(file)

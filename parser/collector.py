@@ -1,5 +1,7 @@
+import asyncio
 import json
 import os
+import random
 from bs4 import BeautifulSoup
 
 from loguru import logger
@@ -35,6 +37,7 @@ class Collector:
 
         chapters = {}
         for link in links:
+            await asyncio.sleep(random.randint(5, 15))
             page = self.get_webpage(link, working_set['tool'])
             text = self.collect_chapter(page, working_set['tag'],
                                         working_set['extra_tag'])
