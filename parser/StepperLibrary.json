@@ -62,5 +62,77 @@
             "word": "Next",
             "tool": "requests"
         }
+    ],
+    "wooksteahouse.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "purread.com": [
+        {
+            "tag": "div",
+            "extra_tag": "text-left",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "akknovel.com": [
+        {
+            "tag": "article",
+            "extra_tag": "chapter-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "knoxt.space": [
+        {
+            "tag": "div",
+            "extra_tag": "epcontent entry-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "sleepytranslations.com": [
+        {
+            "tag": "div",
+            "extra_tag": "epcontent entry-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "chrysanthemumgarden.com": [
+        {
+            "tag": "div",
+            "extra_tag": "novel-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "salmonlatte.com": [
+        {
+            "tag": "div",
+            "extra_tag": "text-left",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "asianovel.net": [
+        {
+            "tag": "article",
+            "extra_tag": "single__contents",
+            "word": "Chapter ",
+            "tool": "requests"
+        }
+    ],
+    "blossomtranslation.com": [
+        {
+            "tag": "article",
+            "extra_tag": "chapter__article",
+            "word": "Next",
+            "tool": "requests"
+        }
     ]
 }

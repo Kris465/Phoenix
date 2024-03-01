@@ -3,6 +3,7 @@ import json
 import os
 import random
 from bs4 import BeautifulSoup
+from selenium import webdriver
 
 from loguru import logger
 import requests
@@ -69,7 +70,10 @@ class Collector:
                 soup = BeautifulSoup(response.text, 'html.parser')
                 return soup
             case "selenium":
-                pass
+                driver = webdriver.Chrome()
+                driver.get(url)
+                html_code = driver.pager_source
+                soup = BeautifulSoup(html_code, 'html.parser')
 
     def collect_chapter(self, page, tag, extra_tag):
         try:

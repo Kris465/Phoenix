@@ -51,5 +51,13 @@
             "sort": "noSort",
             "tool": "requests"
         }
+    ],
+    "asianovel.net": [
+        {
+            "tag": "article",
+            "extra_tag": "single__contents",
+            "sort": "noSort",
+            "tool": "requests"
+        }
     ]
 }
