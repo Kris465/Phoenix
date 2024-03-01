@@ -32,18 +32,22 @@ class Stepper:
             page = await asyncio.to_thread(self.get_webpage, url,
                                            working_set["tool"])
             logger.info(f"got PAGE / {self.task['title']} / {url}")
-            text = self.collect_chapter(page, working_set["tag"],
-                                        working_set["extra_tag"])
-            chapter = {self.number: url + text}
-            next_link = self.get_next_link(page, working_set["word"],
-                                           self.webpage_name)
-            if next_link == url:
+            if page is not None:
+                text = self.collect_chapter(page, working_set["tag"],
+                                            working_set["extra_tag"])
+                chapter = {self.number: url + text}
+                next_link = self.get_next_link(page, working_set["word"],
+                                               self.webpage_name)
+                logger.info(f"got TEXT / {self.task['title']} / "
+                            f"{self.number} / {next_link}")
+                chapters.update(chapter)
+                self.number += 1
+                url = next_link
+
+            elif next_link == url:
                 break
-            logger.info(f"got TEXT / {self.task['title']} / "
-                        f"{self.number} / {next_link}")
-            chapters.update(chapter)
-            self.number += 1
-            url = next_link
+            else:
+                break
 
         novel_folder = os.path.join("novels", self.task['title'])
         os.makedirs(novel_folder, exist_ok=True)
@@ -56,8 +60,12 @@ class Stepper:
         headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)\
                                 AppleWebKit/537.36 (KHTML, like Gecko)\
                                 Chrome/111.0.0.0 Safari/537.36'}
-        response = requests.get(url, headers=headers)
-        logger.info(f"{self.task['title']} / {url} / {response.status_code}")
+        try:
+            response = requests.get(url, headers=headers)
+            logger.info(f"{self.task['title']} / {url} / {response.status_code}")
+        except Exception as e:
+            logger.error(e)
+            return
         if response.status_code != 200:
             logger.debug("Connection problem")
         match tool:
@@ -83,7 +91,7 @@ class Stepper:
     def get_next_link(self, page, word, webpage_name):
         links = page.find_all("a")
         for link in links:
-            # 
+            # Сделать код для chapter + number
             if word in link.text:
                 if webpage_name in link["href"]:
                     next_link = link['href']

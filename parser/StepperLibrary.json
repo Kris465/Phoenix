@@ -82,15 +82,15 @@
     "akknovel.com": [
         {
             "tag": "article",
-            "extra_tag": "chapter-content",
+            "extra_tag": "prose max-w-none mt-4 sm:mt-5",
             "word": "Next",
             "tool": "requests"
         }
     ],
     "knoxt.space": [
         {
-            "tag": "div",
-            "extra_tag": "epcontent entry-content",
+            "tag": "article",
+            "extra_tag": "chapter-content",
             "word": "Next",
             "tool": "requests"
         }
@@ -98,7 +98,7 @@
     "sleepytranslations.com": [
         {
             "tag": "div",
-            "extra_tag": "epcontent entry-content",
+            "extra_tag": "reading-content",
             "word": "Next",
             "tool": "requests"
         }
@@ -114,7 +114,7 @@
     "salmonlatte.com": [
         {
             "tag": "div",
-            "extra_tag": "text-left",
+            "extra_tag": "reading-content",
             "word": "Next",
             "tool": "requests"
         }
@@ -131,6 +131,46 @@
         {
             "tag": "article",
             "extra_tag": "chapter__article",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "guavaread.com": [
+        {
+            "tag": "div",
+            "extra_tag": "reading-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "universalnovel.com": [
+        {
+            "tag": "div",
+            "extra_tag": "epcontent entry-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "fourseasonsforest.wordpress.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "readhive.org": [
+        {
+            "tag": "div",
+            "extra_tag": "mb-4",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "moonlightnovel.com": [
+        {
+            "tag": "div",
+            "extra_tag": "epcontent entry-content",
             "word": "Next",
             "tool": "requests"
         }
