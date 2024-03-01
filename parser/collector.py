@@ -1,6 +1,9 @@
+import asyncio
 import json
 import os
+import random
 from bs4 import BeautifulSoup
+from selenium import webdriver
 
 from loguru import logger
 import requests
@@ -35,6 +38,7 @@ class Collector:
 
         chapters = {}
         for link in links:
+            await asyncio.sleep(random.randint(5, 15))
             page = self.get_webpage(link, working_set['tool'])
             text = self.collect_chapter(page, working_set['tag'],
                                         working_set['extra_tag'])
@@ -66,7 +70,10 @@ class Collector:
                 soup = BeautifulSoup(response.text, 'html.parser')
                 return soup
             case "selenium":
-                pass
+                driver = webdriver.Chrome()
+                driver.get(url)
+                html_code = driver.pager_source
+                soup = BeautifulSoup(html_code, 'html.parser')
 
     def collect_chapter(self, page, tag, extra_tag):
         try:
