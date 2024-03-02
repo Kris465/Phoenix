@@ -174,5 +174,21 @@
             "word": "Next",
             "tool": "requests"
         }
+    ],
+    "citrusaurora.com": [
+        {
+            "tag": "div",
+            "extra_tag": "reading-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "moonlightteatime.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "Next",
+            "tool": "requests"
+        }
     ]
 }
