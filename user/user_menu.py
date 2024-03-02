@@ -13,8 +13,8 @@ class UserMenu:
             title = input("Title: ")
             if not title:
                 break
-            option = int(input("1.Parse\n2.Translate\n3.Save\n4.Exit\n"))
             try:
+                option = int(input("1.Parse\n2.Translate\n3.Save\n4.Exit\n"))
                 task = self.create_task(title, option)
                 self.tasks.append(task)
             except Exception as e:
