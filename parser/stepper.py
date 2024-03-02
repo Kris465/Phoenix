@@ -67,7 +67,7 @@ class Stepper:
             logger.error(e)
             return
         if response.status_code != 200:
-            logger.debug("Connection problem")
+            logger.debug(f"Connection problem / {response.status_code} / {url}")
         match tool:
             case "requests":
                 soup = BeautifulSoup(response.text, 'lxml')

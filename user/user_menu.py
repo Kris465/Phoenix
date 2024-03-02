@@ -14,8 +14,12 @@ class UserMenu:
             if not title:
                 break
             option = int(input("1.Parse\n2.Translate\n3.Save\n4.Exit\n"))
-            task = self.create_task(title, option)
-            self.tasks.append(task)
+            try:
+                task = self.create_task(title, option)
+                self.tasks.append(task)
+            except Exception as e:
+                logger.info(f"Incorrect input, try again... / {e}")
+                continue
         return self.tasks
 
     def url_generator(self):
