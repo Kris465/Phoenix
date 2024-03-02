@@ -4,6 +4,7 @@ import os
 import random
 import requests
 from bs4 import BeautifulSoup
+from selenium import webdriver
 
 from loguru import logger
 
@@ -62,12 +63,14 @@ class Stepper:
                                 Chrome/111.0.0.0 Safari/537.36'}
         try:
             response = requests.get(url, headers=headers)
-            logger.info(f"{self.task['title']} / {url} / {response.status_code}")
+            logger.info(f"{self.task['title']} / "
+                        f"{url} / {response.status_code}")
         except Exception as e:
             logger.error(e)
             return
         if response.status_code != 200:
-            logger.debug(f"Connection problem / {response.status_code} / {url}")
+            logger.debug(f"Connection problem / "
+                         f"{response.status_code} / {url}")
         match tool:
             case "requests":
                 soup = BeautifulSoup(response.text, 'lxml')
@@ -77,7 +80,10 @@ class Stepper:
                 soup = BeautifulSoup(response.text, 'html.parser')
                 return soup
             case "selenium":
-                pass
+                driver = webdriver.Chrome()
+                driver.get(url)
+                html_code = driver.pager_source
+                soup = BeautifulSoup(html_code, 'html.parser')
 
     def collect_chapter(self, page, tag, extra_tag):
         try:
@@ -93,7 +99,7 @@ class Stepper:
         for link in links:
             # Сделать код для chapter + number
             if word in link.text:
-                if webpage_name in link["href"]:
+                if webpage_name in link["href"] and link['href'] != '#':
                     next_link = link['href']
                     next_link.strip()
                 else:

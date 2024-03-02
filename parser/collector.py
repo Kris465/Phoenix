@@ -34,7 +34,11 @@ class Collector:
                                  working_set["area_extra_tag"])
                 links = [link["href"] for link in area.find_all("a")]
             case "tail_sort":
-                pass
+                page = self.get_webpage(self.task['url'][0],
+                                        working_set['tool'])
+                tail = working_set['tail']
+                raw_links = page.find_all("a")
+                links = [link['href'] for link in raw_links if tail in link]
 
         chapters = {}
         for link in links:
