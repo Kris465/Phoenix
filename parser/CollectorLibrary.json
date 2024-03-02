@@ -59,5 +59,13 @@
             "sort": "noSort",
             "tool": "requests"
         }
+    ],
+    "capriciousonline.wordpress.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "sort": "noSort",
+            "tool": "requests"
+        }
     ]
 }

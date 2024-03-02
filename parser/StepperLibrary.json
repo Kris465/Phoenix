@@ -190,5 +190,101 @@
             "word": "Next",
             "tool": "requests"
         }
+    ],
+    "hiraethtranslation.com": [
+        {
+            "tag": "div",
+            "extra_tag": "reading-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "shanghaifantasy.com": [
+        {
+            "tag": "div",
+            "extra_tag": "contenta !p-2 md:p-5 !whitespace-normal leading-7",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "theblmuse.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "secondlifetranslations.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content clr",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "novelfourlife.wordpress.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "lazygirltranslations.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "Next Chapter",
+            "tool": "requests"
+        }
+    ],
+    "mysticalmerries.com": [
+        {
+            "tag": "div",
+            "extra_tag": "reading-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "cabinfourtranslations.wordpress.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "NEXT",
+            "tool": "requests"
+        }
+    ],
+    "lunarletters.com": [
+        {
+            "tag": "div",
+            "extra_tag": "reading-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "wuxiaworld.eu": [
+        {
+            "tag": "div",
+            "extra_tag": "mantine-Paper-root mantine-18ybim5",
+            "word": "Next Chapter",
+            "tool": "requests"
+        }
+    ],
+    "rainofsnow.com": [
+        {
+            "tag": "div",
+            "extra_tag": "zoomdesc-cont",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "lilacpoo.blogspot.com": [
+        {
+            "tag": "div",
+            "extra_tag": "post",
+            "word": "NEXT",
+            "tool": "requests"
+        }
     ]
 }
