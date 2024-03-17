@@ -6,7 +6,7 @@ from loguru import logger
 
 
 class Translator:
-    def __init__(self):
+    def __init__(self) -> None:
         self.key = self.get_data("IAM_TOKEN")
         self.token_link = 'https://iam.api.cloud.yandex.net/iam/v1/tokens'
         self.tr_link = 'https://translate.api.cloud.yandex.net/translate/v2/translate'  # noqa E501
@@ -37,14 +37,24 @@ class Translator:
         load_dotenv(find_dotenv())
         return os.environ.get(name)
 
-    async def translate(self, text, sourse_language):
+    async def translate(self, text, source_language):
         IAM_TOKEN = self.key
+        result = await self.request_form(text, source_language, IAM_TOKEN)
+        if result is None:
+            logger.warning("New IAM_TOKEN is set or connection is lost")
+            await self.get_key()
+            IAM_TOKEN = self.key
+            await asyncio.sleep(10)
+            result = await self.request_form(text, source_language, IAM_TOKEN)
+        return str(result)
+
+    async def request_form(self, text, source_language, IAM_TOKEN):
         folder_id = self.get_data('folder_id')
         target_language = 'ru'
         texts = text
 
         body = {
-            "sourceLanguageCode": sourse_language,
+            "sourceLanguageCode": source_language,
             "targetLanguageCode": target_language,
             "texts": texts,
             "folderId": folder_id,
@@ -65,7 +75,4 @@ class Translator:
                     translation = lst[0]
                     return translation['text']
                 else:
-                    await self.get_key()
-                    logger.info("New IAM_TOKEN is asked and set")
-
-        await asyncio.sleep(10)
+                    return None
