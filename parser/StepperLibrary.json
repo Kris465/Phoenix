@@ -286,5 +286,45 @@
             "word": "NEXT",
             "tool": "requests"
         }
+    ],
+    "sageinthepages.blogspot.com": [
+        {
+            "tag": "div",
+            "extra_tag": "post",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "storyseedling.com": [
+        {
+            "tag": "div",
+            "extra_tag": "mb-4",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "azurecoven.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "helscans.com": [
+        {
+            "tag": "div",
+            "extra_tag": "rdminimal",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "yonglibrary.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "Next Chapter",
+            "tool": "requests"
+        }
     ]
 }

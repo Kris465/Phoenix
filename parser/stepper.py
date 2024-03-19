@@ -43,10 +43,10 @@ class Stepper:
                             f"{self.number} / {next_link}")
                 chapters.update(chapter)
                 self.number += 1
-                url = next_link
-
-            elif next_link == url:
-                break
+                if next_link == url:
+                    break
+                else:
+                    url = next_link
             else:
                 break
 
