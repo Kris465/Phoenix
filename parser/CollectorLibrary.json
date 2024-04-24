@@ -77,5 +77,13 @@
             "area_tag": "ul",
             "area_extra_tag":"list clearfix"
         }
+    ],
+    "docs.google.com": [
+        {
+            "tag": "canvas",
+            "extra_tag": "kix-canvas-tile-content",
+            "sort": "noSort",
+            "tool": "selenium"
+        }
     ]
 }
