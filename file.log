@@ -1,12 +1,19 @@
-2024-04-05 at 15:41:31 | INFO | Webpage name is docs.google.com
-2024-04-05 at 15:41:31 | DEBUG | Add docs.google.com into StepperLibrary.json
-2024-04-05 at 15:41:31 | INFO | Parsing finished / alolo
-2024-04-05 at 16:30:51 | INFO | Webpage name is wuxia.click
-2024-04-05 at 16:30:51 | DEBUG | Add wuxia.click into StepperLibrary.json
-2024-04-05 at 16:30:51 | INFO | Parsing finished / Матрилокальный Брак
-2024-04-05 at 16:39:07 | INFO | Webpage name is docs.google.com
-2024-04-05 at 16:39:07 | DEBUG | Add docs.google.com into StepperLibrary.json
-2024-04-05 at 16:39:07 | INFO | Parsing finished / Матрилокальный Брак
-2024-04-05 at 16:40:10 | INFO | Webpage name is docs.google.com
-2024-04-05 at 16:40:21 | INFO | Матрилокальный Брак / https://docs.google.com/document/d/1C8t_q88DsvnHcDIXPLmAm4YPgywhcPCoLOa5Zdd54qY/edit / 200
-2024-04-05 at 16:41:52 | ERROR | parsing error / HTTPSConnectionPool(host='www.52shuwu.nethttps', port=443): Max retries exceeded with url: //docs.google.com/document/d/1C8t_q88DsvnHcDIXPLmAm4YPgywhcPCoLOa5Zdd54qY/edit (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001AB6071E990>: Failed to resolve 'www.52shuwu.nethttps' ([Errno 11001] getaddrinfo failed)"))
+2024-06-26 at 00:21:56 | INFO | Incorrect input, try again... / 
+2024-06-26 at 00:22:35 | INFO | Webpage name is azorago.com
+2024-06-26 at 00:22:35 | DEBUG | Add azorago.com into StepperLibrary.json
+2024-06-26 at 00:22:35 | INFO | Parsing finished / something
+2024-06-26 at 00:24:05 | INFO | Webpage name is azorago.com
+2024-06-26 at 00:24:29 | INFO | something / https://azorago.com/novel/i-was-the-real-owner-of-elheim/1/ / 200
+2024-06-26 at 00:24:29 | INFO | got PAGE / something / https://azorago.com/novel/i-was-the-real-owner-of-elheim/1/
+2024-06-26 at 00:24:29 | INFO | got TEXT / something / 1 / https://azorago.com/novel/i-was-the-real-owner-of-elheim/2/
+2024-06-26 at 00:25:24 | INFO | something / https://azorago.com/novel/i-was-the-real-owner-of-elheim/2/ / 200
+2024-06-26 at 00:25:24 | INFO | got PAGE / something / https://azorago.com/novel/i-was-the-real-owner-of-elheim/2/
+2024-06-26 at 00:25:24 | INFO | got TEXT / something / 2 / https://azorago.com/novel/i-was-the-real-owner-of-elheim/3/
+2024-06-26 at 00:26:23 | INFO | something / https://azorago.com/novel/i-was-the-real-owner-of-elheim/3/ / 200
+2024-06-26 at 00:26:23 | INFO | got PAGE / something / https://azorago.com/novel/i-was-the-real-owner-of-elheim/3/
+2024-06-26 at 00:26:23 | INFO | got TEXT / something / 3 / https://azorago.com/novel/i-was-the-real-owner-of-elheim/4/
+2024-06-26 at 00:27:25 | INFO | Webpage name is azorago.com
+2024-06-26 at 00:28:01 | INFO | something1 / https://azorago.com/novel/i-was-the-real-owner-of-elheim/215/ / 200
+2024-06-26 at 00:28:01 | INFO | got PAGE / something1 / https://azorago.com/novel/i-was-the-real-owner-of-elheim/215/
+2024-06-26 at 00:28:01 | INFO | got TEXT / something1 / 215 / None
+2024-06-26 at 00:28:01 | INFO | Parsing finished / something1

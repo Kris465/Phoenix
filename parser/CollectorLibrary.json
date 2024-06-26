@@ -68,6 +68,14 @@
             "tool": "requests"
         }
     ],
+    "rainofsnow.com": [
+        {
+            "tag": "div",
+            "extra_tag": "zoomdesc-cont",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
     "52shuwu.net": [
         {
             "tag": "div",
@@ -78,12 +86,36 @@
             "area_extra_tag":"list clearfix"
         }
     ],
-    "docs.google.com": [
+    "sageinthepages.blogspot.com": [
         {
-            "tag": "canvas",
-            "extra_tag": "kix-canvas-tile-content",
+            "tag": "div",
+            "extra_tag": "post-outer",
             "sort": "noSort",
-            "tool": "selenium"
+            "tool": "requests"
+        }
+    ],
+    "noveldream.wordpress.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "nomad-translations.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content wp-block-post-content has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "that1villainess.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "sort": "noSort",
+            "tool": "requests"
         }
     ]
 }

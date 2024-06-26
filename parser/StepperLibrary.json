@@ -106,7 +106,7 @@
     "chrysanthemumgarden.com": [
         {
             "tag": "div",
-            "extra_tag": "novel-content",
+            "extra_tag": "entry-content",
             "word": "Next",
             "tool": "requests"
         }
@@ -121,9 +121,9 @@
     ],
     "asianovel.net": [
         {
-            "tag": "article",
-            "extra_tag": "single__contents",
-            "word": "Chapter ",
+            "tag": "section",
+            "extra_tag": "chapter__content content-section",
+            "word": "Next",
             "tool": "requests"
         }
     ],
@@ -287,26 +287,34 @@
             "tool": "requests"
         }
     ],
-    "sageinthepages.blogspot.com": [
-        {
-            "tag": "div",
-            "extra_tag": "post",
-            "word": "Next",
-            "tool": "requests"
-        }
-    ],
-    "storyseedling.com": [
-        {
-            "tag": "div",
-            "extra_tag": "mb-4",
-            "word": "Next",
-            "tool": "requests"
-        }
-    ],
     "azurecoven.com": [
         {
             "tag": "div",
             "extra_tag": "entry-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "orangessunset.blogspot.com": [
+        {
+            "tag": "div",
+            "extra_tag": "post-body entry-content",
+            "word": "Newer Post",
+            "tool": "requests"
+        }
+    ],
+    "rendertranscript.blogspot.com": [
+        {
+            "tag": "div",
+            "extra_tag": "post-body entry-content float-container",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "nobadnovel.com": [
+        {
+            "tag": "article",
+            "extra_tag": "prose mx-auto mt-8 max-w-3xl astro-YD6BO3JV",
             "word": "Next",
             "tool": "requests"
         }
@@ -324,6 +332,46 @@
             "tag": "div",
             "extra_tag": "entry-content",
             "word": "Next Chapter",
+            "tool": "requests"
+        }
+    ],
+    "52shuwu.net": [
+        {
+            "tag": "div",
+            "extra_tag": "container",
+            "word": "下一页",
+            "tool": "requests"
+        }
+    ],
+    "shafuscan.wordpress.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "nomad-translations.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content wp-block-post-content has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "dumahstranslations.wordpress.com": [
+        {
+            "tag": "div",
+            "extra_tag": "wp-block-group is-layout-constrained wp-block-group-is-layout-constrained",
+            "word": "next",
+            "tool": "requests"
+        }
+    ],
+    "azorago.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "التالي",
             "tool": "requests"
         }
     ]
