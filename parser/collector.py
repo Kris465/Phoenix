@@ -43,7 +43,12 @@ class Collector:
         chapters = {}
         for link in links:
             await asyncio.sleep(random.randint(5, 15))
-            page = self.get_webpage(link, working_set['tool'])
+            try:
+                page = self.get_webpage(link, working_set['tool'])
+            except Exception as e:
+                link = 'https://www.52shuwu.net' + link
+                page = self.get_webpage(link, working_set['tool'])
+                logger.info(f"{e} spacial sample of linking for 52shuwu.net")
             text = self.collect_chapter(page, working_set['tag'],
                                         working_set['extra_tag'])
             chapter = {self.number: link + text}

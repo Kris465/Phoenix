@@ -29,7 +29,7 @@ class Stepper:
         next_link = " "
         page = " "
         while next_link and page is not None:
-            await asyncio.sleep(random.randint(5, 15))
+            await asyncio.sleep(random.randint(15, 60))
             page = await asyncio.to_thread(self.get_webpage, url,
                                            working_set["tool"])
             logger.info(f"got PAGE / {self.task['title']} / {url}")
@@ -43,10 +43,10 @@ class Stepper:
                             f"{self.number} / {next_link}")
                 chapters.update(chapter)
                 self.number += 1
-                url = next_link
-
-            elif next_link == url:
-                break
+                if next_link == url:
+                    break
+                else:
+                    url = next_link
             else:
                 break
 
@@ -58,9 +58,8 @@ class Stepper:
             json.dump(chapters, file, ensure_ascii=False, indent=4)
 
     def get_webpage(self, url, tool=None):
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)\
-                                AppleWebKit/537.36 (KHTML, like Gecko)\
-                                Chrome/111.0.0.0 Safari/537.36'}
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36'}
+
         try:
             response = requests.get(url, headers=headers)
             logger.info(f"{self.task['title']} / "

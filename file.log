@@ -1,44 +1,19 @@
-2024-03-17 at 17:31:33 | INFO | Webpage name is citrusaurora.com
-2024-03-17 at 17:31:49 | INFO | Кому могла понравиться принцесса монстров / https://citrusaurora.com/series/who-could-have-loved-the-monster-princess/chapter-27/ / 200
-2024-03-17 at 17:31:49 | INFO | got PAGE / Кому могла понравиться принцесса монстров / https://citrusaurora.com/series/who-could-have-loved-the-monster-princess/chapter-27/
-2024-03-17 at 17:31:49 | INFO | got TEXT / Кому могла понравиться принцесса монстров / 27 / https://citrusaurora.com/series/who-could-have-loved-the-monster-princess/chapter-28/
-2024-03-17 at 17:32:01 | INFO | Кому могла понравиться принцесса монстров / https://citrusaurora.com/series/who-could-have-loved-the-monster-princess/chapter-28/ / 200
-2024-03-17 at 17:32:01 | INFO | got PAGE / Кому могла понравиться принцесса монстров / https://citrusaurora.com/series/who-could-have-loved-the-monster-princess/chapter-28/
-2024-03-17 at 17:32:01 | INFO | got TEXT / Кому могла понравиться принцесса монстров / 28 / https://citrusaurora.com/series/who-could-have-loved-the-monster-princess/chapter-29/
-2024-03-17 at 17:32:13 | INFO | Кому могла понравиться принцесса монстров / https://citrusaurora.com/series/who-could-have-loved-the-monster-princess/chapter-29/ / 200
-2024-03-17 at 17:32:13 | INFO | got PAGE / Кому могла понравиться принцесса монстров / https://citrusaurora.com/series/who-could-have-loved-the-monster-princess/chapter-29/
-2024-03-17 at 17:32:13 | INFO | got TEXT / Кому могла понравиться принцесса монстров / 29 / https://citrusaurora.com/series/who-could-have-loved-the-monster-princess/chapter-30/
-2024-03-17 at 17:32:28 | INFO | Кому могла понравиться принцесса монстров / https://citrusaurora.com/series/who-could-have-loved-the-monster-princess/chapter-30/ / 200
-2024-03-17 at 17:32:28 | INFO | got PAGE / Кому могла понравиться принцесса монстров / https://citrusaurora.com/series/who-could-have-loved-the-monster-princess/chapter-30/
-2024-03-17 at 17:32:28 | INFO | got TEXT / Кому могла понравиться принцесса монстров / 30 / https://citrusaurora.com/series/who-could-have-loved-the-monster-princess/chapter-31/
-2024-03-17 at 17:32:35 | INFO | Кому могла понравиться принцесса монстров / https://citrusaurora.com/series/who-could-have-loved-the-monster-princess/chapter-31/ / 200
-2024-03-17 at 17:32:36 | INFO | got PAGE / Кому могла понравиться принцесса монстров / https://citrusaurora.com/series/who-could-have-loved-the-monster-princess/chapter-31/
-2024-03-17 at 17:32:36 | INFO | got TEXT / Кому могла понравиться принцесса монстров / 31 / https://citrusaurora.com/#
-2024-03-17 at 17:32:44 | INFO | Кому могла понравиться принцесса монстров / https://citrusaurora.com/# / 200
-2024-03-17 at 17:32:44 | INFO | got PAGE / Кому могла понравиться принцесса монстров / https://citrusaurora.com/#
-2024-03-17 at 17:32:44 | INFO | got TEXT / Кому могла понравиться принцесса монстров / 32 / None
-2024-03-17 at 17:32:44 | INFO | Parsing finished / Кому могла понравиться принцесса монстров
-2024-03-17 at 17:34:08 | INFO | translate from-to / Кому могла понравиться принцесса монстров / en
-2024-03-17 at 17:34:08 | ERROR | translating error / can only concatenate str (not "coroutine") to str
-2024-03-17 at 17:38:52 | INFO | translate from-to / Кому могла понравиться принцесса монстров / en
-2024-03-17 at 17:38:52 | ERROR | translating error / can only concatenate str (not "coroutine") to str
-2024-03-17 at 17:40:33 | INFO | translate from-to / Кому могла понравиться принцесса монстров / en
-2024-03-17 at 17:40:33 | INFO | Кому могла понравиться принцесса монстров / 27 is translated
-2024-03-17 at 17:40:33 | INFO | json file with translation for Кому могла понравиться принцесса монстров is written
-2024-03-17 at 17:40:33 | INFO | Translating task is created / Кому могла понравиться принцесса монстров
-2024-03-17 at 17:42:01 | INFO | translate from-to / Кому могла понравиться принцесса монстров / en
-2024-03-17 at 17:42:01 | ERROR | translating error / name 'e' is not defined
-2024-03-17 at 17:42:32 | INFO | translate from-to / Кому могла понравиться принцесса монстров / en
-2024-03-17 at 17:42:32 | WARNING | New IAM_TOKEN is set or connection is lost
-2024-03-17 at 17:42:44 | INFO | Кому могла понравиться принцесса монстров / 27 is translated
-2024-03-17 at 17:42:44 | INFO | json file with translation for Кому могла понравиться принцесса монстров is written
-2024-03-17 at 17:42:44 | INFO | Translating task is created / Кому могла понравиться принцесса монстров
-2024-03-17 at 17:44:57 | INFO | translate all / Кому могла понравиться принцесса монстров / en
-2024-03-17 at 17:44:57 | WARNING | New IAM_TOKEN is set or connection is lost
-2024-03-17 at 17:45:09 | INFO | Кому могла понравиться принцесса монстров / 27 is translated
-2024-03-17 at 17:45:11 | INFO | Кому могла понравиться принцесса монстров / 28 is translated
-2024-03-17 at 17:45:13 | INFO | Кому могла понравиться принцесса монстров / 29 is translated
-2024-03-17 at 17:45:14 | INFO | Кому могла понравиться принцесса монстров / 30 is translated
-2024-03-17 at 17:45:16 | INFO | Кому могла понравиться принцесса монстров / 31 is translated
-2024-03-17 at 17:45:16 | INFO | json file with translation for Кому могла понравиться принцесса монстров is written
-2024-03-17 at 17:45:16 | INFO | Translating task is created / Кому могла понравиться принцесса монстров
+2024-06-26 at 00:21:56 | INFO | Incorrect input, try again... / 
+2024-06-26 at 00:22:35 | INFO | Webpage name is azorago.com
+2024-06-26 at 00:22:35 | DEBUG | Add azorago.com into StepperLibrary.json
+2024-06-26 at 00:22:35 | INFO | Parsing finished / something
+2024-06-26 at 00:24:05 | INFO | Webpage name is azorago.com
+2024-06-26 at 00:24:29 | INFO | something / https://azorago.com/novel/i-was-the-real-owner-of-elheim/1/ / 200
+2024-06-26 at 00:24:29 | INFO | got PAGE / something / https://azorago.com/novel/i-was-the-real-owner-of-elheim/1/
+2024-06-26 at 00:24:29 | INFO | got TEXT / something / 1 / https://azorago.com/novel/i-was-the-real-owner-of-elheim/2/
+2024-06-26 at 00:25:24 | INFO | something / https://azorago.com/novel/i-was-the-real-owner-of-elheim/2/ / 200
+2024-06-26 at 00:25:24 | INFO | got PAGE / something / https://azorago.com/novel/i-was-the-real-owner-of-elheim/2/
+2024-06-26 at 00:25:24 | INFO | got TEXT / something / 2 / https://azorago.com/novel/i-was-the-real-owner-of-elheim/3/
+2024-06-26 at 00:26:23 | INFO | something / https://azorago.com/novel/i-was-the-real-owner-of-elheim/3/ / 200
+2024-06-26 at 00:26:23 | INFO | got PAGE / something / https://azorago.com/novel/i-was-the-real-owner-of-elheim/3/
+2024-06-26 at 00:26:23 | INFO | got TEXT / something / 3 / https://azorago.com/novel/i-was-the-real-owner-of-elheim/4/
+2024-06-26 at 00:27:25 | INFO | Webpage name is azorago.com
+2024-06-26 at 00:28:01 | INFO | something1 / https://azorago.com/novel/i-was-the-real-owner-of-elheim/215/ / 200
+2024-06-26 at 00:28:01 | INFO | got PAGE / something1 / https://azorago.com/novel/i-was-the-real-owner-of-elheim/215/
+2024-06-26 at 00:28:01 | INFO | got TEXT / something1 / 215 / None
+2024-06-26 at 00:28:01 | INFO | Parsing finished / something1
