@@ -17,3 +17,78 @@
 2024-06-26 at 00:28:01 | INFO | got PAGE / something1 / https://azorago.com/novel/i-was-the-real-owner-of-elheim/215/
 2024-06-26 at 00:28:01 | INFO | got TEXT / something1 / 215 / None
 2024-06-26 at 00:28:01 | INFO | Parsing finished / something1
+2024-08-02 at 21:35:01 | INFO | Webpage name is chrysanthemumgarden.com
+2024-08-02 at 21:35:59 | INFO | Town / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/ / 403
+2024-08-02 at 21:35:59 | DEBUG | Connection problem / 403 / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/
+2024-08-02 at 21:35:59 | ERROR | parsing error / Couldn't find a tree builder with the features you requested: lxml. Do you need to install a parser library?
+2024-08-02 at 21:36:38 | INFO | Webpage name is chrysanthemumgarden.com
+2024-08-02 at 21:37:31 | INFO | Town / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/ / 403
+2024-08-02 at 21:37:31 | DEBUG | Connection problem / 403 / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/
+2024-08-02 at 21:37:31 | INFO | got PAGE / Town / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/
+2024-08-02 at 21:37:31 | ERROR | parsing error / cannot access local variable 'next_link' where it is not associated with a value
+2024-08-02 at 21:39:30 | INFO | Webpage name is chrysanthemumgarden.com
+2024-08-02 at 21:40:13 | INFO | Town / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/ / 403
+2024-08-02 at 21:40:13 | DEBUG | Connection problem / 403 / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/
+2024-08-02 at 21:40:13 | INFO | got PAGE / Town / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/
+2024-08-02 at 21:40:13 | ERROR | parsing error / cannot access local variable 'next_link' where it is not associated with a value
+2024-08-02 at 22:20:48 | INFO | Webpage name is chrysanthemumgarden.com
+2024-08-02 at 22:21:24 | ERROR | string indices must be integers, not 'str'
+2024-08-02 at 22:21:24 | INFO | got PAGE / Town / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/
+2024-08-02 at 22:21:24 | INFO | Parsing finished / Town
+2024-08-02 at 22:27:41 | INFO | Webpage name is chrysanthemumgarden.com
+2024-08-02 at 22:28:35 | ERROR | parsing error / Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2024-08-02 at 22:50:00 | INFO | Webpage name is chrysanthemumgarden.com
+2024-08-02 at 22:50:48 | INFO | Town / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/ / 403
+2024-08-02 at 22:50:48 | DEBUG | Connection problem / 403 / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/
+2024-08-02 at 22:51:33 | ERROR | parsing error / 'WebDriver' object has no attribute 'pager_source'
+2024-08-02 at 22:53:56 | INFO | Webpage name is chrysanthemumgarden.com
+2024-08-02 at 22:54:27 | INFO | Town / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/ / 403
+2024-08-02 at 22:54:27 | DEBUG | Connection problem / 403 / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/
+2024-08-02 at 22:55:12 | INFO | got PAGE / Town / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/
+2024-08-02 at 22:55:12 | INFO | Parsing finished / Town
+2024-08-02 at 22:58:08 | INFO | Webpage name is chrysanthemumgarden.com
+2024-08-02 at 22:59:03 | INFO | Town / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/ / 403
+2024-08-02 at 22:59:03 | DEBUG | Connection problem / 403 / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/
+2024-08-02 at 22:59:03 | INFO | got PAGE / Town / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/
+2024-08-02 at 22:59:03 | ERROR | parsing error / cannot access local variable 'next_link' where it is not associated with a value
+2024-08-02 at 22:59:47 | INFO | Webpage name is chrysanthemumgarden.com
+2024-08-02 at 23:00:33 | INFO | Town / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/ / 403
+2024-08-02 at 23:00:33 | DEBUG | Connection problem / 403 / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/
+2024-08-02 at 23:01:19 | INFO | got PAGE / Town / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/
+2024-08-02 at 23:01:19 | INFO | Parsing finished / Town
+2024-08-02 at 23:02:31 | INFO | Webpage name is chrysanthemumgarden.com
+2024-08-02 at 23:03:14 | ERROR | parsing error / Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2024-08-02 at 23:04:36 | INFO | Webpage name is chrysanthemumgarden.com
+2024-08-02 at 23:04:53 | ERROR | parsing error / 'cookies'
+2024-08-02 at 23:05:36 | INFO | Webpage name is chrysanthemumgarden.com
+2024-08-02 at 23:06:29 | ERROR | parsing error / Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2024-08-02 at 23:17:19 | INFO | Webpage name is chrysanthemumgarden.com
+2024-08-02 at 23:20:01 | ERROR | parsing error / Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2024-08-02 at 23:21:18 | INFO | Webpage name is chrysanthemumgarden.com
+2024-08-02 at 23:22:30 | ERROR | parsing error / Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2024-08-02 at 23:23:26 | INFO | Webpage name is chrysanthemumgarden.com
+2024-08-02 at 23:23:30 | ERROR | parsing error / Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2024-08-02 at 23:24:40 | INFO | Webpage name is chrysanthemumgarden.com
+2024-08-02 at 23:24:47 | ERROR | parsing error / Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2024-08-02 at 23:25:22 | INFO | Webpage name is chrysanthemumgarden.com
+2024-08-02 at 23:25:53 | ERROR | parsing error / Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2024-08-02 at 23:32:50 | INFO | Webpage name is chrysanthemumgarden.com
+2024-08-02 at 23:32:51 | INFO | Towm / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/ / 403
+2024-08-02 at 23:32:51 | DEBUG | Connection problem / 403 / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/
+2024-08-02 at 23:32:51 | INFO | got PAGE / Towm / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/
+2024-08-02 at 23:32:51 | ERROR | parsing error / cannot access local variable 'next_link' where it is not associated with a value
+2024-08-02 at 23:35:27 | INFO | Webpage name is chrysanthemumgarden.com
+2024-08-02 at 23:35:27 | ERROR | parsing error / 'cookies'
+2024-08-02 at 23:43:25 | INFO | Webpage name is chrysanthemumgarden.com
+2024-08-02 at 23:43:25 | ERROR | Invalid leading whitespace, reserved character(s), or returncharacter(s) in header name: ':authority'
+2024-08-02 at 23:43:25 | INFO | got PAGE / Town / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/
+2024-08-02 at 23:43:25 | INFO | Parsing finished / Town
+2024-08-02 at 23:44:58 | INFO | Webpage name is chrysanthemumgarden.com
+2024-08-02 at 23:44:58 | ERROR | Invalid leading whitespace, reserved character(s), or returncharacter(s) in header name: ':method'
+2024-08-02 at 23:44:58 | INFO | got PAGE / Town / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/
+2024-08-02 at 23:44:58 | INFO | Parsing finished / Town
+2024-08-02 at 23:47:03 | INFO | Webpage name is chrysanthemumgarden.com
+2024-08-02 at 23:47:04 | INFO | Town / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/ / 403
+2024-08-02 at 23:47:04 | DEBUG | Connection problem / 403 / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/
+2024-08-02 at 23:47:04 | INFO | got PAGE / Town / https://chrysanthemumgarden.com/novel-tl/hwa/hwa-25/
+2024-08-02 at 23:47:04 | ERROR | parsing error / cannot access local variable 'next_link' where it is not associated with a value

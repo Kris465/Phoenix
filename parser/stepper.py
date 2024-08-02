@@ -2,6 +2,7 @@ import asyncio
 import json
 import os
 import random
+from dotenv import load_dotenv
 import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -24,14 +25,14 @@ class Stepper:
             logger.debug(f"Add {self.webpage_name} into StepperLibrary.json")
             return
 
-        url = self.task["url"]
+        url = self.task['url']
         chapters = {}
         next_link = " "
         page = " "
         while next_link and page is not None:
-            await asyncio.sleep(random.randint(15, 60))
+            # await asyncio.sleep(random.randint(15, 60))
             page = await asyncio.to_thread(self.get_webpage, url,
-                                           working_set["tool"])
+                                           working_set['tool'])
             logger.info(f"got PAGE / {self.task['title']} / {url}")
             if page is not None:
                 text = self.collect_chapter(page, working_set["tag"],
@@ -58,10 +59,16 @@ class Stepper:
             json.dump(chapters, file, ensure_ascii=False, indent=4)
 
     def get_webpage(self, url, tool=None):
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36'}
+        headers = {
+            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36'
+        }
+        # headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36'}
+        # load_dotenv()
+        # cookies_data = os.environ['cookies']
+        # cookies = json.loads(cookies_data)
 
         try:
-            response = requests.get(url, headers=headers)
+            response = requests.get(url, headers=headers)  # cookies
             logger.info(f"{self.task['title']} / "
                         f"{url} / {response.status_code}")
         except Exception as e:
@@ -81,7 +88,7 @@ class Stepper:
             case "selenium":
                 driver = webdriver.Chrome()
                 driver.get(url)
-                html_code = driver.pager_source
+                html_code = driver.page_source
                 soup = BeautifulSoup(html_code, 'html.parser')
 
     def collect_chapter(self, page, tag, extra_tag):
