@@ -46,7 +46,7 @@ class Collector:
             try:
                 page = self.get_webpage(link, working_set['tool'])
             except Exception as e:
-                link = 'https://www.52shuwu.net' + link
+                link = self.webpage_name + link
                 page = self.get_webpage(link, working_set['tool'])
                 logger.info(f"{e} spacial sample of linking for 52shuwu.net")
             text = self.collect_chapter(page, working_set['tag'],

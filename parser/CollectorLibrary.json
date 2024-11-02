@@ -117,5 +117,15 @@
             "sort": "noSort",
             "tool": "requests"
         }
+    ],
+    "xbanxia.com": [
+        {
+            "tag": "article",
+            "extra_tag": "post clearfix",
+            "sort": "area_sort",
+            "tool": "zh",
+            "area_tag": "div",
+            "area_extra_tag":"book-list clearfix"
+        }
     ]
 }
