@@ -118,6 +118,7 @@
             "tool": "requests"
         }
     ],
+<<<<<<< HEAD
     "xbanxia.com": [
         {
             "tag": "article",
@@ -126,6 +127,16 @@
             "tool": "zh",
             "area_tag": "div",
             "area_extra_tag":"book-list clearfix"
+=======
+    "lifecanbesweetwithoutsugar.wordpress.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "sort": "area_sort",
+            "tool": "zh",
+            "area_tag": "div",
+            "area_extra_tag":"entry-content"
+>>>>>>> fa16c07 (library is updated)
         }
     ]
 }

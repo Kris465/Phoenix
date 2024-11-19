@@ -374,5 +374,13 @@
             "word": "التالي",
             "tool": "requests"
         }
+    ],
+    "lifecanbesweetwithoutsugar.wordpress.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "Next post",
+            "tool": "requests"
+        }
     ]
 }
