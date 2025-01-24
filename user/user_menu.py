@@ -1,11 +1,13 @@
+from typing import List, Generator, Optional
 from loguru import logger
+from domain.types import Task, Tasks, ParseTask, TranslateTask, SaveTask
 
 
 class UserMenu:
     def __init__(self) -> None:
-        self.tasks = []
+        self.tasks: Tasks = []
 
-    def menu(self):
+    def menu(self) -> Tasks:
         print("What is your will, Master?\n")
         task = {}
         option = ''
@@ -22,7 +24,7 @@ class UserMenu:
                 continue
         return self.tasks
 
-    def url_generator(self):
+    def url_generator(self) -> Generator[str, None, None]:
         while True:
             url = input("urls: \n")
             if not url:
@@ -30,7 +32,7 @@ class UserMenu:
             if url.strip():
                 yield url
 
-    def create_task(self, title, option):
+    def create_task(self, title: str, option: int) -> Optional[Task]:
         match option:
             case 1:
                 mod = int(input("Mod:\n1.Stepper\n2.Collector\n"))
