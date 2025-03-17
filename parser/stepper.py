@@ -2,10 +2,12 @@ import asyncio
 import json
 import os
 import random
-from dotenv import load_dotenv
+import time
 import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 
 from loguru import logger
 
@@ -30,7 +32,7 @@ class Stepper:
         next_link = " "
         page = " "
         while next_link and page is not None:
-            # await asyncio.sleep(random.randint(15, 60))
+            await asyncio.sleep(random.randint(5, 20))
             page = await asyncio.to_thread(self.get_webpage, url,
                                            working_set['tool'])
             logger.info(f"got PAGE / {self.task['title']} / {url}")
@@ -62,13 +64,9 @@ class Stepper:
         headers = {
             'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36'
         }
-        # headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36'}
-        # load_dotenv()
-        # cookies_data = os.environ['cookies']
-        # cookies = json.loads(cookies_data)
 
         try:
-            response = requests.get(url, headers=headers)  # cookies
+            response = requests.get(url, headers=headers)
             logger.info(f"{self.task['title']} / "
                         f"{url} / {response.status_code}")
         except Exception as e:
@@ -86,10 +84,33 @@ class Stepper:
                 soup = BeautifulSoup(response.text, 'html.parser')
                 return soup
             case "selenium":
-                driver = webdriver.Chrome()
+                options = webdriver.ChromeOptions()
+                options.add_argument("--headless")
+                options.add_argument("--no-sandbox")
+                options.add_argument("--disable-dev-shm-usage")
+                driver = webdriver.Chrome(
+                    service=Service(ChromeDriverManager().install()),
+                    options=options)
                 driver.get(url)
+
+                def slow_scroll(driver):
+                    last_height = driver.execute_script(
+                        "return document.body.scrollHeight")
+
+                    while True:
+                        driver.execute_script(
+                            "window.scrollTo(0, document.body.scrollHeight);")
+                        time.sleep(2)
+                        new_height = driver.execute_script(
+                            "return document.body.scrollHeight")
+                        if new_height == last_height:
+                            break
+                        last_height = new_height
+
+                slow_scroll(driver)
                 html_code = driver.page_source
                 soup = BeautifulSoup(html_code, 'html.parser')
+                return soup
 
     def collect_chapter(self, page, tag, extra_tag):
         try:

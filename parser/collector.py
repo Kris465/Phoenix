@@ -4,6 +4,10 @@ import os
 import random
 from bs4 import BeautifulSoup
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.common.by import By
+import time
 
 from loguru import logger
 import requests
@@ -49,8 +53,12 @@ class Collector:
                 link = self.webpage_name + link
                 page = self.get_webpage(link, working_set['tool'])
                 logger.info(f"{e} spacial sample of linking for 52shuwu.net")
-            text = self.collect_chapter(page, working_set['tag'],
-                                        working_set['extra_tag'])
+
+            if working_set['tool'] == 'selenium':
+                text = page
+            else:
+                text = self.collect_chapter(page, working_set['tag'],
+                                            working_set['extra_tag'])
             chapter = {self.number: link + text}
             self.number += 1
             chapters.update(chapter)
@@ -79,10 +87,44 @@ class Collector:
                 soup = BeautifulSoup(response.text, 'html.parser')
                 return soup
             case "selenium":
-                driver = webdriver.Chrome()
+                options = webdriver.ChromeOptions()
+                options.add_argument("--headless")
+                options.add_argument("--no-sandbox")
+                options.add_argument("--disable-dev-shm-usage")
+
+                driver = webdriver.Chrome(
+                    service=Service(ChromeDriverManager().install()),
+                    options=options)
                 driver.get(url)
-                html_code = driver.pager_source
-                soup = BeautifulSoup(html_code, 'html.parser')
+
+                def slow_scroll(driver):
+                    last_height = driver.execute_script(
+                        "return document.body.scrollHeight")
+
+                    while True:
+                        driver.execute_script(
+                            "window.scrollTo(0, document.body.scrollHeight);")
+                        time.sleep(2)
+                        new_height = driver.execute_script(
+                            "return document.body.scrollHeight")
+                        if new_height == last_height:
+                            break
+                        last_height = new_height
+
+                slow_scroll(driver)
+                meta_tags = driver.find_elements(By.TAG_NAME, 'meta')
+
+                meta_info = []
+                for meta in meta_tags:
+                    name = meta.get_attribute('name')
+                    content = meta.get_attribute('content')
+                    if name and content:
+                        meta_info.append(f"{name}: {content}")
+
+                my_try = "\n".join(meta_info)
+                driver.quit()
+                logger.info(f"Page and text of selenium is got {url}")
+                return my_try
 
     def collect_chapter(self, page, tag, extra_tag):
         try:

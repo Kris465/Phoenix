@@ -15,7 +15,8 @@ chromedriver_win32
 chromeprofile
 /novels
 
-*.json
+# logs
+*.log
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

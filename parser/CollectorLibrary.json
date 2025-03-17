@@ -216,10 +216,10 @@
     ],
     "crimsonnovels.com": [
         {
-            "tag": "div",
-            "extra_tag": "p-2 break-words w-full",
+            "tag": "name",
+            "extra_tag": "content",
             "sort": "noSort",
-            "tool": "requests"
+            "tool": "selenium"
         }
     ],
     "flyonthewalls.blog": [

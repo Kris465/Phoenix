@@ -482,9 +482,9 @@
     "crimsonnovels.com": [
         {
             "tag": "div",
-            "extra_tag": " text-lg text-justify leading-10",
+            "extra_tag": "content",
             "word": "Next Chapter",
-            "tool": "requests"
+            "tool": "selenium"
         }
     ],
     "peachygardens.blogspot.com": [
