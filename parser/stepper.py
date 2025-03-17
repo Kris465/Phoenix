@@ -32,7 +32,7 @@ class Stepper:
         next_link = " "
         page = " "
         while next_link and page is not None:
-            await asyncio.sleep(random.randint(5, 20))
+            await asyncio.sleep(random.randint(1, 3))
             page = await asyncio.to_thread(self.get_webpage, url,
                                            working_set['tool'])
             logger.info(f"got PAGE / {self.task['title']} / {url}")
