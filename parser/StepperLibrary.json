@@ -98,7 +98,7 @@
     "sleepytranslations.com": [
         {
             "tag": "div",
-            "extra_tag": "reading-content",
+            "extra_tag": "entry-content",
             "word": "Next",
             "tool": "requests"
         }
@@ -121,9 +121,9 @@
     ],
     "asianovel.net": [
         {
-            "tag": "section",
-            "extra_tag": "chapter__content content-section",
-            "word": "Next",
+            "tag": "article",
+            "extra_tag": "resize-font chapter-formatting chapter-font-color chapter-font-family",
+            "word": "Chapter 2",
             "tool": "requests"
         }
     ],
@@ -202,7 +202,7 @@
     "shanghaifantasy.com": [
         {
             "tag": "div",
-            "extra_tag": "contenta !p-2 md:p-5 !whitespace-normal leading-7",
+            "extra_tag": "contenta !p-2 md:p-5 !whitespace-normal leading-7 w-full break-words",
             "word": "Next",
             "tool": "requests"
         }
@@ -367,6 +367,62 @@
             "tool": "requests"
         }
     ],
+    "acupofhalfmoon.wordpress.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "❯❯",
+            "tool": "requests"
+        }
+    ],
+    "scribblehub.com": [
+        {
+            "tag": "div",
+            "extra_tag": "chp_raw",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "storyseedling.com": [
+        {
+            "tag": "div",
+            "extra_tag": "justify-center flex-grow mx-auto prose md:max-w-4xl lg:relative",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "novellumina.com": [
+        {
+            "tag": "div",
+            "extra_tag": "text-left",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "novelhall.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "lifecanbesweetwithoutsugar.wordpress.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "wuxia.click": [
+        {
+            "tag": "div",
+            "extra_tag": "mantine-Paper-root mantine-18ybim5",
+            "word": "Next Chapter",
+            "tool": "requests"
+        }
+    ],
     "azorago.com": [
         {
             "tag": "div",
@@ -375,11 +431,227 @@
             "tool": "requests"
         }
     ],
-    "lifecanbesweetwithoutsugar.wordpress.com": [
+    "256wx.net": [
+        {
+            "tag": "div",
+            "extra_tag": "article fix",
+            "word": "下一页",
+            "tool": "requests"
+        }
+    ],
+    "sageinthepages.blogspot.com": [
+        {
+            "tag": "div",
+            "extra_tag": "post-body entry-content float-container",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "pinnochies.wordpress.com": [
         {
             "tag": "div",
             "extra_tag": "entry-content",
-            "word": "Next post",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "wordrain69.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "midnightrambles.in": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "bellereservoir.com": [
+        {
+            "tag": "div",
+            "extra_tag": "text-left",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "crimsonnovels.com": [
+        {
+            "tag": "div",
+            "extra_tag": " text-lg text-justify leading-10",
+            "word": "Next Chapter",
+            "tool": "requests"
+        }
+    ],
+    "peachygardens.blogspot.com": [
+        {
+            "tag": "article",
+            "extra_tag": "post-body",
+            "word": "Next Chapter",
+            "tool": "requests"
+        }
+    ],
+    "darkholmtranslation.blogspot.com": [
+        {
+            "tag": "div",
+            "extra_tag": "post-body entry-content float-container",
+            "word": "Next Chapter",
+            "tool": "requests"
+        }
+    ],
+    "sandstl.wordpress.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content wp-block-post-content has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "bloomingtranslation.home.blog": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "Next Chapter",
+            "tool": "requests"
+        }
+    ],
+    "itoshiikoto.blogspot.com": [
+        {
+            "tag": "div",
+            "extra_tag": "post-body entry-content float-container",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "lazywalnut5.wordpress.com": [
+        {
+            "tag": "article",
+            "extra_tag": "post-70",
+            "word": "Next Post",
+            "tool": "requests"
+        }
+    ],
+    "midnightscrolls.com": [
+        {
+            "tag": "div",
+            "extra_tag": "post-body post-content",
+            "word": "Newer",
+            "tool": "requests"
+        }
+    ],
+    "lenatranslation.wordpress.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "csycrus.wordpress.com": [
+        {
+            "tag": "div",
+            "extra_tag": "content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "yuushil.net": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "duskblossoms.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "travistranslations.com": [
+        {
+            "tag": "div",
+            "extra_tag": "my-4 reader-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "perfectotranslation.blogspot.com": [
+        {
+            "tag": "div",
+            "extra_tag": "post-body entry-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "shubaowb.com": [
+        {
+            "tag": "div",
+            "extra_tag": "chaptercontent",
+            "word": "下一章",
+            "tool": "requests"
+        }
+    ],
+    "pearblossompavilion.blogspot.com": [
+        {
+            "tag": "div",
+            "extra_tag": "post-outer",
+            "word": "Next Chapter",
+            "tool": "requests"
+        }
+    ],
+    "orchidtalestranslations.wordpress.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "dragonholic.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "saihiroto.blogspot.com": [
+        {
+            "tag": "div",
+            "extra_tag": "image-gallery",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "darkstartranslations.com": [
+        {
+            "tag": "div",
+            "extra_tag": "reading-content",
+            "word": "Next",
+            "tool": "requests"
+        }
+    ],
+    "otakuscrolls.com": [
+        {
+            "tag": "div",
+            "extra_tag": "w-full text-left my-2",
+            "word": "Next Chapter",
+            "tool": "requests"
+        }
+    ],
+    "clownandco.org": [
+        {
+            "tag": "div",
+            "extra_tag": "text-left",
+            "word": "Next",
             "tool": "requests"
         }
     ]

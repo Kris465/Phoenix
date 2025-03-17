@@ -1,6 +1,6 @@
-from typing import List, Generator, Optional
+from typing import Generator, Optional
 from loguru import logger
-from domain.types import Task, Tasks, ParseTask, TranslateTask, SaveTask
+from domain.types import Task, Tasks
 
 
 class UserMenu:
@@ -18,7 +18,8 @@ class UserMenu:
             try:
                 option = int(input("1.Parse\n2.Translate\n3.Save\n4.Exit\n"))
                 task = self.create_task(title, option)
-                self.tasks.append(task)
+                if task is not None:
+                    self.tasks.append(task)
             except Exception as e:
                 logger.info(f"Incorrect input, try again... / {e}")
                 continue

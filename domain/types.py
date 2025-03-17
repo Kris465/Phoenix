@@ -1,6 +1,5 @@
 from typing import List, Union, Literal
 
-# Task types
 ParsingMod = Literal["Stepper", "Collector"]
 TaskAction = Literal["parse", "translate", "save"]
 Language = Literal["zh", "en"]

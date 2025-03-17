@@ -118,7 +118,198 @@
             "tool": "requests"
         }
     ],
-<<<<<<< HEAD
+    "acupofhalfmoon.wordpress.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "zeustranslations.blogspot.com": [
+        {
+            "tag": "div",
+            "extra_tag": "chapterNovel",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "scribblehub.com": [
+        {
+            "tag": "div",
+            "extra_tag": "chp_contents",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "novelhall.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "chrysanthemumgarden.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "lifecanbesweetwithoutsugar.wordpress.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "bluebellsinbloom.wordpress.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "wooksteahouse.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "guavaread.com": [
+        {
+            "tag": "div",
+            "extra_tag": "reading-content",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "titannovel.net": [
+        {
+            "tag": "div",
+            "extra_tag": "content",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "midnightrambles.in": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "wattpad.com": [
+        {
+            "tag": "div",
+            "extra_tag": "trinityAudioPlaceholder",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "crimsonnovels.com": [
+        {
+            "tag": "div",
+            "extra_tag": "p-2 break-words w-full",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "flyonthewalls.blog": [
+        {
+            "tag": "div",
+            "extra_tag": "resize-font chapter-formatting chapter-font-color chapter-font-family",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "skydemonorder.com": [
+        {
+            "tag": "div",
+            "extra_tag": "max-w-none pb-10 font-medium prose text-primary-600 font-lora text-left",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "webnovel.com": [
+        {
+            "tag": "div",
+            "extra_tag": "cha-page-in",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "sandstl.wordpress.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content wp-block-post-content has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "itoshiikoto.blogspot.com": [
+        {
+            "tag": "article",
+            "extra_tag": "post-outer-container",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "lazywalnut5.wordpress.com": [
+        {
+            "tag": "div",
+            "extra_tag": "content-area",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "untamedalley.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "turtleraine.com": [
+        {
+            "tag": "div",
+            "extra_tag": "wp-block-column is-layout-flow wp-block-column-is-layout-flow",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "midnightscrolls.com": [
+        {
+            "tag": "div",
+            "extra_tag": "post-body post-content",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "csycrus.wordpress.com": [
+        {
+            "tag": "div",
+            "extra_tag": "entry-content",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "travistranslations.com": [
+        {
+            "tag": "div",
+            "extra_tag": "my-4 reader-content",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
     "xbanxia.com": [
         {
             "tag": "article",
@@ -127,16 +318,62 @@
             "tool": "zh",
             "area_tag": "div",
             "area_extra_tag":"book-list clearfix"
-=======
-    "lifecanbesweetwithoutsugar.wordpress.com": [
+        }
+    ],
+    "peachygardens.blogspot.com": [
+        {
+            "tag": "article",
+            "extra_tag": "post-body",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "exploreandtry.blogspot.com": [
+        {
+            "tag": "div",
+            "extra_tag": "content",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "moonlightnovel.com": [
+        {
+            "tag": "div",
+            "extra_tag": "epcontent entry-content",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "inoveltranslation.com": [
+        {
+            "tag": "section",
+            "extra_tag": "styles_reader_controls__ytAec",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "orchidtalestranslations.wordpress.com": [
         {
             "tag": "div",
             "extra_tag": "entry-content",
-            "sort": "area_sort",
-            "tool": "zh",
-            "area_tag": "div",
-            "area_extra_tag":"entry-content"
->>>>>>> fa16c07 (library is updated)
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "saihiroto.blogspot.com": [
+        {
+            "tag": "div",
+            "extra_tag": "image-gallery",
+            "sort": "noSort",
+            "tool": "requests"
+        }
+    ],
+    "otakuscrolls.com": [
+        {
+            "tag": "div",
+            "extra_tag": "chapter-content md:px-6 lg:px-14 text-base font-sans ",
+            "sort": "noSort",
+            "tool": "requests"
         }
     ]
 }

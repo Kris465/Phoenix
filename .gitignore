@@ -1,4 +1,4 @@
-# Environments
+# venv
 .env
 .venv
 env/
@@ -7,13 +7,15 @@ ENV/
 env.bak/
 venv.bak/
 
-#vscode
+# vs code
 .vscode
 
-#project files
+# project files
 chromedriver_win32
 chromeprofile
 /novels
+
+*.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

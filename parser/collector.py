@@ -21,7 +21,7 @@ class Collector:
         try:
             working_set = library[self.webpage_name][0]
         except KeyError:
-            logger.debug(f"Add {self.webpage_name} into StepperLibrary.json")
+            logger.debug(f"Add {self.webpage_name} into CollectorLibrary.json")
             return
 
         match working_set['sort']:

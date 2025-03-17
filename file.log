@@ -1,10 +1,465 @@
-2025-01-24 at 02:55:11 | INFO | Webpage name is 52shuku.vip
-2025-01-24 at 02:55:11 | ERROR | parsing error / Expecting property name enclosed in double quotes: line 121 column 1 (char 3037)
-2025-01-24 at 02:56:14 | INFO | Webpage name is 52shuku.vip
-2025-01-24 at 02:56:14 | ERROR | parsing error / Expecting property name enclosed in double quotes: line 121 column 1 (char 3037)
-2025-01-24 at 02:57:19 | INFO | Webpage name is 52shuku.vip
-2025-01-24 at 02:57:19 | ERROR | parsing error / Expecting property name enclosed in double quotes: line 121 column 1 (char 3037)
-2025-01-24 at 03:00:18 | INFO | Webpage name is 52shuku.vip
-2025-01-24 at 03:00:18 | ERROR | parsing error / Expecting property name enclosed in double quotes: line 121 column 1 (char 3037)
-2025-01-24 at 03:01:27 | INFO | Webpage name is 52shuku.vip
-2025-01-24 at 03:01:27 | ERROR | parsing error / Expecting property name enclosed in double quotes: line 121 column 1 (char 3037)
+2025-03-16 at 23:38:07 | INFO | Webpage name is clownandco.org
+2025-03-16 at 23:38:07 | DEBUG | Add clownandco.org into StepperLibrary.json
+2025-03-16 at 23:38:07 | INFO | Parsing finished / test
+2025-03-17 at 14:10:26 | INFO | Webpage name is clownandco.org
+2025-03-17 at 14:10:26 | DEBUG | Add clownandco.org into StepperLibrary.json
+2025-03-17 at 14:10:26 | INFO | Parsing finished / BlackHorse
+2025-03-17 at 14:11:29 | INFO | Webpage name is clownandco.org
+2025-03-17 at 14:11:29 | ERROR | Invalid URL 'clownandco.org': No scheme supplied. Perhaps you meant https://clownandco.org?
+2025-03-17 at 14:11:29 | INFO | got PAGE / Black Horse / clownandco.org
+2025-03-17 at 14:11:29 | INFO | Parsing finished / Black Horse
+2025-03-17 at 14:12:37 | INFO | Webpage name is clownandco.org
+2025-03-17 at 14:12:39 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-1/ / 200
+2025-03-17 at 14:12:39 | ERROR | parsing error / Couldn't find a tree builder with the features you requested: lxml. Do you need to install a parser library?
+2025-03-17 at 14:13:28 | INFO | Webpage name is clownandco.org
+2025-03-17 at 14:13:30 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-1/ / 200
+2025-03-17 at 14:13:30 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-1/
+2025-03-17 at 14:13:30 | INFO | got TEXT / Black Horse / 1 / https://clownandco.org/show/the-black-horse/chapter-2/
+2025-03-17 at 14:13:31 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-2/ / 200
+2025-03-17 at 14:13:31 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-2/
+2025-03-17 at 14:13:31 | INFO | got TEXT / Black Horse / 2 / https://clownandco.org/show/the-black-horse/chapter-3/
+2025-03-17 at 14:13:34 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-3/ / 200
+2025-03-17 at 14:13:34 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-3/
+2025-03-17 at 14:13:34 | INFO | got TEXT / Black Horse / 3 / https://clownandco.org/show/the-black-horse/chapter-4/
+2025-03-17 at 14:13:36 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-4/ / 200
+2025-03-17 at 14:13:36 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-4/
+2025-03-17 at 14:13:36 | INFO | got TEXT / Black Horse / 4 / https://clownandco.org/show/the-black-horse/chapter-5/
+2025-03-17 at 14:13:37 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-5/ / 200
+2025-03-17 at 14:13:37 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-5/
+2025-03-17 at 14:13:37 | INFO | got TEXT / Black Horse / 5 / https://clownandco.org/show/the-black-horse/chapter-6/
+2025-03-17 at 14:13:39 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-6/ / 200
+2025-03-17 at 14:13:39 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-6/
+2025-03-17 at 14:13:39 | INFO | got TEXT / Black Horse / 6 / https://clownandco.org/show/the-black-horse/chapter-7/
+2025-03-17 at 14:13:40 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-7/ / 200
+2025-03-17 at 14:13:40 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-7/
+2025-03-17 at 14:13:40 | INFO | got TEXT / Black Horse / 7 / https://clownandco.org/show/the-black-horse/chapter-8/
+2025-03-17 at 14:13:42 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-8/ / 200
+2025-03-17 at 14:13:42 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-8/
+2025-03-17 at 14:13:42 | INFO | got TEXT / Black Horse / 8 / https://clownandco.org/show/the-black-horse/chapter-9/
+2025-03-17 at 14:13:43 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-9/ / 200
+2025-03-17 at 14:13:43 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-9/
+2025-03-17 at 14:13:43 | INFO | got TEXT / Black Horse / 9 / https://clownandco.org/show/the-black-horse/chapter-10/
+2025-03-17 at 14:13:45 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-10/ / 200
+2025-03-17 at 14:13:45 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-10/
+2025-03-17 at 14:13:45 | INFO | got TEXT / Black Horse / 10 / https://clownandco.org/show/the-black-horse/chapter-11/
+2025-03-17 at 14:13:47 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-11/ / 200
+2025-03-17 at 14:13:47 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-11/
+2025-03-17 at 14:13:47 | INFO | got TEXT / Black Horse / 11 / https://clownandco.org/show/the-black-horse/chapter-12/
+2025-03-17 at 14:13:48 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-12/ / 200
+2025-03-17 at 14:13:48 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-12/
+2025-03-17 at 14:13:48 | INFO | got TEXT / Black Horse / 12 / https://clownandco.org/show/the-black-horse/chapter-13/
+2025-03-17 at 14:13:50 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-13/ / 200
+2025-03-17 at 14:13:50 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-13/
+2025-03-17 at 14:13:50 | INFO | got TEXT / Black Horse / 13 / https://clownandco.org/show/the-black-horse/chapter-14/
+2025-03-17 at 14:13:51 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-14/ / 200
+2025-03-17 at 14:13:51 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-14/
+2025-03-17 at 14:13:51 | INFO | got TEXT / Black Horse / 14 / https://clownandco.org/show/the-black-horse/chapter-15/
+2025-03-17 at 14:13:53 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-15/ / 200
+2025-03-17 at 14:13:53 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-15/
+2025-03-17 at 14:13:53 | INFO | got TEXT / Black Horse / 15 / https://clownandco.org/show/the-black-horse/chapter-16/
+2025-03-17 at 14:13:54 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-16/ / 200
+2025-03-17 at 14:13:54 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-16/
+2025-03-17 at 14:13:54 | INFO | got TEXT / Black Horse / 16 / https://clownandco.org/show/the-black-horse/chapter-17/
+2025-03-17 at 14:13:56 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-17/ / 200
+2025-03-17 at 14:13:56 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-17/
+2025-03-17 at 14:13:56 | INFO | got TEXT / Black Horse / 17 / https://clownandco.org/show/the-black-horse/chapter-18/
+2025-03-17 at 14:13:57 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-18/ / 200
+2025-03-17 at 14:13:57 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-18/
+2025-03-17 at 14:13:57 | INFO | got TEXT / Black Horse / 18 / https://clownandco.org/show/the-black-horse/chapter-19/
+2025-03-17 at 14:13:59 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-19/ / 200
+2025-03-17 at 14:13:59 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-19/
+2025-03-17 at 14:13:59 | INFO | got TEXT / Black Horse / 19 / https://clownandco.org/show/the-black-horse/chapter-20/
+2025-03-17 at 14:14:00 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-20/ / 200
+2025-03-17 at 14:14:00 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-20/
+2025-03-17 at 14:14:00 | INFO | got TEXT / Black Horse / 20 / https://clownandco.org/show/the-black-horse/chapter-21/
+2025-03-17 at 14:14:02 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-21/ / 200
+2025-03-17 at 14:14:02 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-21/
+2025-03-17 at 14:14:02 | INFO | got TEXT / Black Horse / 21 / https://clownandco.org/show/the-black-horse/chapter-22/
+2025-03-17 at 14:14:04 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-22/ / 200
+2025-03-17 at 14:14:04 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-22/
+2025-03-17 at 14:14:04 | INFO | got TEXT / Black Horse / 22 / https://clownandco.org/show/the-black-horse/chapter-23/
+2025-03-17 at 14:14:05 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-23/ / 200
+2025-03-17 at 14:14:05 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-23/
+2025-03-17 at 14:14:05 | INFO | got TEXT / Black Horse / 23 / https://clownandco.org/show/the-black-horse/chapter-24/
+2025-03-17 at 14:14:07 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-24/ / 200
+2025-03-17 at 14:14:07 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-24/
+2025-03-17 at 14:14:07 | INFO | got TEXT / Black Horse / 24 / https://clownandco.org/show/the-black-horse/chapter-25/
+2025-03-17 at 14:14:08 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-25/ / 200
+2025-03-17 at 14:14:08 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-25/
+2025-03-17 at 14:14:08 | INFO | got TEXT / Black Horse / 25 / https://clownandco.org/show/the-black-horse/chapter-26/
+2025-03-17 at 14:14:10 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-26/ / 200
+2025-03-17 at 14:14:10 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-26/
+2025-03-17 at 14:14:10 | INFO | got TEXT / Black Horse / 26 / https://clownandco.org/show/the-black-horse/chapter-27/
+2025-03-17 at 14:14:12 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-27/ / 200
+2025-03-17 at 14:14:12 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-27/
+2025-03-17 at 14:14:12 | INFO | got TEXT / Black Horse / 27 / https://clownandco.org/show/the-black-horse/chapter-28/
+2025-03-17 at 14:14:13 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-28/ / 200
+2025-03-17 at 14:14:13 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-28/
+2025-03-17 at 14:14:13 | INFO | got TEXT / Black Horse / 28 / https://clownandco.org/show/the-black-horse/chapter-29/
+2025-03-17 at 14:14:15 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-29/ / 200
+2025-03-17 at 14:14:15 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-29/
+2025-03-17 at 14:14:15 | INFO | got TEXT / Black Horse / 29 / https://clownandco.org/show/the-black-horse/chapter-30/
+2025-03-17 at 14:14:16 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-30/ / 200
+2025-03-17 at 14:14:16 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-30/
+2025-03-17 at 14:14:16 | INFO | got TEXT / Black Horse / 30 / https://clownandco.org/show/the-black-horse/chapter-31/
+2025-03-17 at 14:14:18 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-31/ / 200
+2025-03-17 at 14:14:18 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-31/
+2025-03-17 at 14:14:18 | INFO | got TEXT / Black Horse / 31 / https://clownandco.org/show/the-black-horse/chapter-32/
+2025-03-17 at 14:14:19 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-32/ / 200
+2025-03-17 at 14:14:19 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-32/
+2025-03-17 at 14:14:19 | INFO | got TEXT / Black Horse / 32 / https://clownandco.org/show/the-black-horse/chapter-33/
+2025-03-17 at 14:14:21 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-33/ / 200
+2025-03-17 at 14:14:21 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-33/
+2025-03-17 at 14:14:21 | INFO | got TEXT / Black Horse / 33 / https://clownandco.org/show/the-black-horse/chapter-34/
+2025-03-17 at 14:14:22 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-34/ / 200
+2025-03-17 at 14:14:22 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-34/
+2025-03-17 at 14:14:22 | INFO | got TEXT / Black Horse / 34 / https://clownandco.org/show/the-black-horse/chapter-35/
+2025-03-17 at 14:14:24 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-35/ / 200
+2025-03-17 at 14:14:24 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-35/
+2025-03-17 at 14:14:24 | INFO | got TEXT / Black Horse / 35 / https://clownandco.org/show/the-black-horse/chapter-36/
+2025-03-17 at 14:14:26 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-36/ / 200
+2025-03-17 at 14:14:26 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-36/
+2025-03-17 at 14:14:26 | INFO | got TEXT / Black Horse / 36 / https://clownandco.org/show/the-black-horse/chapter-37/
+2025-03-17 at 14:14:27 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-37/ / 200
+2025-03-17 at 14:14:28 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-37/
+2025-03-17 at 14:14:28 | INFO | got TEXT / Black Horse / 37 / https://clownandco.org/show/the-black-horse/chapter-38/
+2025-03-17 at 14:14:29 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-38/ / 200
+2025-03-17 at 14:14:29 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-38/
+2025-03-17 at 14:14:29 | INFO | got TEXT / Black Horse / 38 / https://clownandco.org/show/the-black-horse/chapter-39/
+2025-03-17 at 14:14:31 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-39/ / 200
+2025-03-17 at 14:14:31 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-39/
+2025-03-17 at 14:14:31 | INFO | got TEXT / Black Horse / 39 / https://clownandco.org/show/the-black-horse/chapter-40/
+2025-03-17 at 14:14:32 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-40/ / 200
+2025-03-17 at 14:14:32 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-40/
+2025-03-17 at 14:14:32 | INFO | got TEXT / Black Horse / 40 / https://clownandco.org/show/the-black-horse/chapter-41/
+2025-03-17 at 14:14:35 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-41/ / 200
+2025-03-17 at 14:14:35 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-41/
+2025-03-17 at 14:14:35 | INFO | got TEXT / Black Horse / 41 / https://clownandco.org/show/the-black-horse/chapter-42/
+2025-03-17 at 14:14:36 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-42/ / 200
+2025-03-17 at 14:14:36 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-42/
+2025-03-17 at 14:14:36 | INFO | got TEXT / Black Horse / 42 / https://clownandco.org/show/the-black-horse/chapter-43/
+2025-03-17 at 14:14:38 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-43/ / 200
+2025-03-17 at 14:14:38 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-43/
+2025-03-17 at 14:14:38 | INFO | got TEXT / Black Horse / 43 / https://clownandco.org/show/the-black-horse/chapter-44/
+2025-03-17 at 14:14:40 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-44/ / 200
+2025-03-17 at 14:14:40 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-44/
+2025-03-17 at 14:14:40 | INFO | got TEXT / Black Horse / 44 / https://clownandco.org/show/the-black-horse/chapter-45/
+2025-03-17 at 14:14:41 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-45/ / 200
+2025-03-17 at 14:14:41 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-45/
+2025-03-17 at 14:14:41 | INFO | got TEXT / Black Horse / 45 / https://clownandco.org/show/the-black-horse/chapter-46/
+2025-03-17 at 14:14:43 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-46/ / 200
+2025-03-17 at 14:14:43 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-46/
+2025-03-17 at 14:14:43 | INFO | got TEXT / Black Horse / 46 / https://clownandco.org/show/the-black-horse/chapter-47/
+2025-03-17 at 14:14:44 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-47/ / 200
+2025-03-17 at 14:14:44 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-47/
+2025-03-17 at 14:14:44 | INFO | got TEXT / Black Horse / 47 / https://clownandco.org/show/the-black-horse/chapter-48/
+2025-03-17 at 14:14:46 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-48/ / 200
+2025-03-17 at 14:14:46 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-48/
+2025-03-17 at 14:14:46 | INFO | got TEXT / Black Horse / 48 / https://clownandco.org/show/the-black-horse/chapter-49/
+2025-03-17 at 14:14:47 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-49/ / 200
+2025-03-17 at 14:14:47 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-49/
+2025-03-17 at 14:14:47 | INFO | got TEXT / Black Horse / 49 / https://clownandco.org/show/the-black-horse/chapter-50/
+2025-03-17 at 14:14:49 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-50/ / 200
+2025-03-17 at 14:14:49 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-50/
+2025-03-17 at 14:14:49 | INFO | got TEXT / Black Horse / 50 / https://clownandco.org/show/the-black-horse/chapter-51/
+2025-03-17 at 14:14:51 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-51/ / 200
+2025-03-17 at 14:14:51 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-51/
+2025-03-17 at 14:14:51 | INFO | got TEXT / Black Horse / 51 / https://clownandco.org/show/the-black-horse/chapter-52/
+2025-03-17 at 14:14:52 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-52/ / 200
+2025-03-17 at 14:14:52 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-52/
+2025-03-17 at 14:14:52 | INFO | got TEXT / Black Horse / 52 / https://clownandco.org/show/the-black-horse/chapter-53-part-1/
+2025-03-17 at 14:14:54 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-53-part-1/ / 200
+2025-03-17 at 14:14:54 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-53-part-1/
+2025-03-17 at 14:14:54 | INFO | got TEXT / Black Horse / 53 / https://clownandco.org/show/the-black-horse/chapter-53-part-2/
+2025-03-17 at 14:14:55 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-53-part-2/ / 200
+2025-03-17 at 14:14:55 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-53-part-2/
+2025-03-17 at 14:14:55 | INFO | got TEXT / Black Horse / 54 / https://clownandco.org/show/the-black-horse/chapter-54-part-1/
+2025-03-17 at 14:14:57 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-54-part-1/ / 200
+2025-03-17 at 14:14:57 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-54-part-1/
+2025-03-17 at 14:14:57 | INFO | got TEXT / Black Horse / 55 / https://clownandco.org/show/the-black-horse/chapter-54-part-2/
+2025-03-17 at 14:14:58 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-54-part-2/ / 200
+2025-03-17 at 14:14:58 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-54-part-2/
+2025-03-17 at 14:14:58 | INFO | got TEXT / Black Horse / 56 / https://clownandco.org/show/the-black-horse/chapter-55/
+2025-03-17 at 14:15:00 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-55/ / 200
+2025-03-17 at 14:15:00 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-55/
+2025-03-17 at 14:15:00 | INFO | got TEXT / Black Horse / 57 / https://clownandco.org/show/the-black-horse/chapter-56/
+2025-03-17 at 14:15:02 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-56/ / 200
+2025-03-17 at 14:15:02 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-56/
+2025-03-17 at 14:15:02 | INFO | got TEXT / Black Horse / 58 / https://clownandco.org/show/the-black-horse/chapter-56-part-2/
+2025-03-17 at 14:15:03 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-56-part-2/ / 200
+2025-03-17 at 14:15:03 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-56-part-2/
+2025-03-17 at 14:15:03 | INFO | got TEXT / Black Horse / 59 / https://clownandco.org/show/the-black-horse/chapter-57/
+2025-03-17 at 14:15:05 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-57/ / 200
+2025-03-17 at 14:15:05 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-57/
+2025-03-17 at 14:15:05 | INFO | got TEXT / Black Horse / 60 / https://clownandco.org/show/the-black-horse/chapter-58-part-1/
+2025-03-17 at 14:15:06 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-58-part-1/ / 200
+2025-03-17 at 14:15:06 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-58-part-1/
+2025-03-17 at 14:15:06 | INFO | got TEXT / Black Horse / 61 / https://clownandco.org/show/the-black-horse/chapter-58-part-2/
+2025-03-17 at 14:15:08 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-58-part-2/ / 200
+2025-03-17 at 14:15:08 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-58-part-2/
+2025-03-17 at 14:15:08 | INFO | got TEXT / Black Horse / 62 / https://clownandco.org/show/the-black-horse/chapter-58-part-3/
+2025-03-17 at 14:15:09 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-58-part-3/ / 200
+2025-03-17 at 14:15:09 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-58-part-3/
+2025-03-17 at 14:15:09 | INFO | got TEXT / Black Horse / 63 / https://clownandco.org/show/the-black-horse/chapter-58-part-4/
+2025-03-17 at 14:15:11 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-58-part-4/ / 200
+2025-03-17 at 14:15:11 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-58-part-4/
+2025-03-17 at 14:15:11 | INFO | got TEXT / Black Horse / 64 / https://clownandco.org/show/the-black-horse/chapter-58-part-5/
+2025-03-17 at 14:15:12 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-58-part-5/ / 200
+2025-03-17 at 14:15:12 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-58-part-5/
+2025-03-17 at 14:15:12 | INFO | got TEXT / Black Horse / 65 / https://clownandco.org/show/the-black-horse/chapter-58-part-6/
+2025-03-17 at 14:15:14 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-58-part-6/ / 200
+2025-03-17 at 14:15:14 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-58-part-6/
+2025-03-17 at 14:15:14 | INFO | got TEXT / Black Horse / 66 / https://clownandco.org/show/the-black-horse/chapter-59-part-1/
+2025-03-17 at 14:15:15 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-59-part-1/ / 200
+2025-03-17 at 14:15:15 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-59-part-1/
+2025-03-17 at 14:15:15 | INFO | got TEXT / Black Horse / 67 / https://clownandco.org/show/the-black-horse/chapter-59-part-2/
+2025-03-17 at 14:15:17 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-59-part-2/ / 200
+2025-03-17 at 14:15:17 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-59-part-2/
+2025-03-17 at 14:15:17 | INFO | got TEXT / Black Horse / 68 / https://clownandco.org/show/the-black-horse/chapter-59-part-3/
+2025-03-17 at 14:15:18 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-59-part-3/ / 200
+2025-03-17 at 14:15:18 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-59-part-3/
+2025-03-17 at 14:15:18 | INFO | got TEXT / Black Horse / 69 / https://clownandco.org/show/the-black-horse/chapter-59-part-4/
+2025-03-17 at 14:15:20 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-59-part-4/ / 200
+2025-03-17 at 14:15:20 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-59-part-4/
+2025-03-17 at 14:15:20 | INFO | got TEXT / Black Horse / 70 / https://clownandco.org/show/the-black-horse/chapter-59-part-5/
+2025-03-17 at 14:15:21 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-59-part-5/ / 200
+2025-03-17 at 14:15:21 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-59-part-5/
+2025-03-17 at 14:15:21 | INFO | got TEXT / Black Horse / 71 / None
+2025-03-17 at 14:15:21 | INFO | Parsing finished / Black Horse
+2025-03-17 at 14:16:27 | INFO | translate from / Black Horse / en
+2025-03-17 at 14:16:27 | WARNING | New IAM_TOKEN is set or connection is lost
+2025-03-17 at 14:16:37 | WARNING | New IAM_TOKEN is set or connection is lost
+2025-03-17 at 14:16:48 | INFO | Black Horse / 71 is translated
+2025-03-17 at 14:16:48 | INFO | json file with translation for Black Horse is written
+2025-03-17 at 14:16:48 | INFO | Translating task is created / Black Horse
+2025-03-17 at 14:40:54 | INFO | Webpage name is clownandco.org
+2025-03-17 at 14:40:56 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-1/ / 200
+2025-03-17 at 14:58:04 | INFO | Webpage name is clownandco.org
+2025-03-17 at 14:58:05 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-1/ / 200
+2025-03-17 at 14:58:05 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-1/
+2025-03-17 at 14:58:05 | INFO | got TEXT / Black Horse / 1 / https://clownandco.org/show/the-black-horse/chapter-2/
+2025-03-17 at 14:58:07 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-2/ / 200
+2025-03-17 at 14:58:07 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-2/
+2025-03-17 at 14:58:07 | INFO | got TEXT / Black Horse / 2 / https://clownandco.org/show/the-black-horse/chapter-3/
+2025-03-17 at 14:58:09 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-3/ / 200
+2025-03-17 at 14:58:09 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-3/
+2025-03-17 at 14:58:09 | INFO | got TEXT / Black Horse / 3 / https://clownandco.org/show/the-black-horse/chapter-4/
+2025-03-17 at 14:58:10 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-4/ / 200
+2025-03-17 at 14:58:10 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-4/
+2025-03-17 at 14:58:10 | INFO | got TEXT / Black Horse / 4 / https://clownandco.org/show/the-black-horse/chapter-5/
+2025-03-17 at 14:58:12 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-5/ / 200
+2025-03-17 at 14:58:12 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-5/
+2025-03-17 at 14:58:12 | INFO | got TEXT / Black Horse / 5 / https://clownandco.org/show/the-black-horse/chapter-6/
+2025-03-17 at 14:58:13 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-6/ / 200
+2025-03-17 at 14:58:13 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-6/
+2025-03-17 at 14:58:13 | INFO | got TEXT / Black Horse / 6 / https://clownandco.org/show/the-black-horse/chapter-7/
+2025-03-17 at 14:58:15 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-7/ / 200
+2025-03-17 at 14:58:15 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-7/
+2025-03-17 at 14:58:15 | INFO | got TEXT / Black Horse / 7 / https://clownandco.org/show/the-black-horse/chapter-8/
+2025-03-17 at 14:58:17 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-8/ / 200
+2025-03-17 at 14:58:17 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-8/
+2025-03-17 at 14:58:17 | INFO | got TEXT / Black Horse / 8 / https://clownandco.org/show/the-black-horse/chapter-9/
+2025-03-17 at 14:58:19 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-9/ / 200
+2025-03-17 at 14:58:19 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-9/
+2025-03-17 at 14:58:19 | INFO | got TEXT / Black Horse / 9 / https://clownandco.org/show/the-black-horse/chapter-10/
+2025-03-17 at 14:58:20 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-10/ / 200
+2025-03-17 at 14:58:20 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-10/
+2025-03-17 at 14:58:20 | INFO | got TEXT / Black Horse / 10 / https://clownandco.org/show/the-black-horse/chapter-11/
+2025-03-17 at 14:58:22 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-11/ / 200
+2025-03-17 at 14:58:22 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-11/
+2025-03-17 at 14:58:22 | INFO | got TEXT / Black Horse / 11 / https://clownandco.org/show/the-black-horse/chapter-12/
+2025-03-17 at 14:58:23 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-12/ / 200
+2025-03-17 at 14:58:23 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-12/
+2025-03-17 at 14:58:23 | INFO | got TEXT / Black Horse / 12 / https://clownandco.org/show/the-black-horse/chapter-13/
+2025-03-17 at 14:58:25 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-13/ / 200
+2025-03-17 at 14:58:25 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-13/
+2025-03-17 at 14:58:25 | INFO | got TEXT / Black Horse / 13 / https://clownandco.org/show/the-black-horse/chapter-14/
+2025-03-17 at 14:58:27 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-14/ / 200
+2025-03-17 at 14:58:27 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-14/
+2025-03-17 at 14:58:27 | INFO | got TEXT / Black Horse / 14 / https://clownandco.org/show/the-black-horse/chapter-15/
+2025-03-17 at 14:58:28 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-15/ / 200
+2025-03-17 at 14:58:28 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-15/
+2025-03-17 at 14:58:28 | INFO | got TEXT / Black Horse / 15 / https://clownandco.org/show/the-black-horse/chapter-16/
+2025-03-17 at 14:58:30 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-16/ / 200
+2025-03-17 at 14:58:30 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-16/
+2025-03-17 at 14:58:30 | INFO | got TEXT / Black Horse / 16 / https://clownandco.org/show/the-black-horse/chapter-17/
+2025-03-17 at 14:58:31 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-17/ / 200
+2025-03-17 at 14:58:31 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-17/
+2025-03-17 at 14:58:31 | INFO | got TEXT / Black Horse / 17 / https://clownandco.org/show/the-black-horse/chapter-18/
+2025-03-17 at 14:58:34 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-18/ / 200
+2025-03-17 at 14:58:34 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-18/
+2025-03-17 at 14:58:34 | INFO | got TEXT / Black Horse / 18 / https://clownandco.org/show/the-black-horse/chapter-19/
+2025-03-17 at 14:58:36 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-19/ / 200
+2025-03-17 at 14:58:36 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-19/
+2025-03-17 at 14:58:36 | INFO | got TEXT / Black Horse / 19 / https://clownandco.org/show/the-black-horse/chapter-20/
+2025-03-17 at 14:58:37 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-20/ / 200
+2025-03-17 at 14:58:37 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-20/
+2025-03-17 at 14:58:37 | INFO | got TEXT / Black Horse / 20 / https://clownandco.org/show/the-black-horse/chapter-21/
+2025-03-17 at 14:58:39 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-21/ / 200
+2025-03-17 at 14:58:39 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-21/
+2025-03-17 at 14:58:39 | INFO | got TEXT / Black Horse / 21 / https://clownandco.org/show/the-black-horse/chapter-22/
+2025-03-17 at 14:58:40 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-22/ / 200
+2025-03-17 at 14:58:40 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-22/
+2025-03-17 at 14:58:40 | INFO | got TEXT / Black Horse / 22 / https://clownandco.org/show/the-black-horse/chapter-23/
+2025-03-17 at 14:58:42 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-23/ / 200
+2025-03-17 at 14:58:42 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-23/
+2025-03-17 at 14:58:42 | INFO | got TEXT / Black Horse / 23 / https://clownandco.org/show/the-black-horse/chapter-24/
+2025-03-17 at 14:58:44 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-24/ / 200
+2025-03-17 at 14:58:44 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-24/
+2025-03-17 at 14:58:44 | INFO | got TEXT / Black Horse / 24 / https://clownandco.org/show/the-black-horse/chapter-25/
+2025-03-17 at 14:58:45 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-25/ / 200
+2025-03-17 at 14:58:45 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-25/
+2025-03-17 at 14:58:45 | INFO | got TEXT / Black Horse / 25 / https://clownandco.org/show/the-black-horse/chapter-26/
+2025-03-17 at 14:58:47 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-26/ / 200
+2025-03-17 at 14:58:47 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-26/
+2025-03-17 at 14:58:47 | INFO | got TEXT / Black Horse / 26 / https://clownandco.org/show/the-black-horse/chapter-27/
+2025-03-17 at 14:58:48 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-27/ / 200
+2025-03-17 at 14:58:48 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-27/
+2025-03-17 at 14:58:48 | INFO | got TEXT / Black Horse / 27 / https://clownandco.org/show/the-black-horse/chapter-28/
+2025-03-17 at 14:58:50 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-28/ / 200
+2025-03-17 at 14:58:50 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-28/
+2025-03-17 at 14:58:50 | INFO | got TEXT / Black Horse / 28 / https://clownandco.org/show/the-black-horse/chapter-29/
+2025-03-17 at 14:58:51 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-29/ / 200
+2025-03-17 at 14:58:51 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-29/
+2025-03-17 at 14:58:51 | INFO | got TEXT / Black Horse / 29 / https://clownandco.org/show/the-black-horse/chapter-30/
+2025-03-17 at 14:58:53 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-30/ / 200
+2025-03-17 at 14:58:53 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-30/
+2025-03-17 at 14:58:53 | INFO | got TEXT / Black Horse / 30 / https://clownandco.org/show/the-black-horse/chapter-31/
+2025-03-17 at 14:58:54 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-31/ / 200
+2025-03-17 at 14:58:54 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-31/
+2025-03-17 at 14:58:54 | INFO | got TEXT / Black Horse / 31 / https://clownandco.org/show/the-black-horse/chapter-32/
+2025-03-17 at 14:58:56 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-32/ / 200
+2025-03-17 at 14:58:56 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-32/
+2025-03-17 at 14:58:56 | INFO | got TEXT / Black Horse / 32 / https://clownandco.org/show/the-black-horse/chapter-33/
+2025-03-17 at 14:58:57 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-33/ / 200
+2025-03-17 at 14:58:57 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-33/
+2025-03-17 at 14:58:57 | INFO | got TEXT / Black Horse / 33 / https://clownandco.org/show/the-black-horse/chapter-34/
+2025-03-17 at 14:58:59 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-34/ / 200
+2025-03-17 at 14:58:59 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-34/
+2025-03-17 at 14:58:59 | INFO | got TEXT / Black Horse / 34 / https://clownandco.org/show/the-black-horse/chapter-35/
+2025-03-17 at 14:59:01 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-35/ / 200
+2025-03-17 at 14:59:01 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-35/
+2025-03-17 at 14:59:01 | INFO | got TEXT / Black Horse / 35 / https://clownandco.org/show/the-black-horse/chapter-36/
+2025-03-17 at 14:59:02 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-36/ / 200
+2025-03-17 at 14:59:02 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-36/
+2025-03-17 at 14:59:02 | INFO | got TEXT / Black Horse / 36 / https://clownandco.org/show/the-black-horse/chapter-37/
+2025-03-17 at 14:59:04 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-37/ / 200
+2025-03-17 at 14:59:04 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-37/
+2025-03-17 at 14:59:04 | INFO | got TEXT / Black Horse / 37 / https://clownandco.org/show/the-black-horse/chapter-38/
+2025-03-17 at 14:59:05 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-38/ / 200
+2025-03-17 at 14:59:05 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-38/
+2025-03-17 at 14:59:05 | INFO | got TEXT / Black Horse / 38 / https://clownandco.org/show/the-black-horse/chapter-39/
+2025-03-17 at 14:59:07 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-39/ / 200
+2025-03-17 at 14:59:07 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-39/
+2025-03-17 at 14:59:07 | INFO | got TEXT / Black Horse / 39 / https://clownandco.org/show/the-black-horse/chapter-40/
+2025-03-17 at 14:59:09 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-40/ / 200
+2025-03-17 at 14:59:09 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-40/
+2025-03-17 at 14:59:09 | INFO | got TEXT / Black Horse / 40 / https://clownandco.org/show/the-black-horse/chapter-41/
+2025-03-17 at 14:59:10 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-41/ / 200
+2025-03-17 at 14:59:10 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-41/
+2025-03-17 at 14:59:10 | INFO | got TEXT / Black Horse / 41 / https://clownandco.org/show/the-black-horse/chapter-42/
+2025-03-17 at 14:59:12 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-42/ / 200
+2025-03-17 at 14:59:12 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-42/
+2025-03-17 at 14:59:12 | INFO | got TEXT / Black Horse / 42 / https://clownandco.org/show/the-black-horse/chapter-43/
+2025-03-17 at 14:59:13 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-43/ / 200
+2025-03-17 at 14:59:13 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-43/
+2025-03-17 at 14:59:13 | INFO | got TEXT / Black Horse / 43 / https://clownandco.org/show/the-black-horse/chapter-44/
+2025-03-17 at 14:59:15 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-44/ / 200
+2025-03-17 at 14:59:15 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-44/
+2025-03-17 at 14:59:15 | INFO | got TEXT / Black Horse / 44 / https://clownandco.org/show/the-black-horse/chapter-45/
+2025-03-17 at 14:59:16 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-45/ / 200
+2025-03-17 at 14:59:16 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-45/
+2025-03-17 at 14:59:16 | INFO | got TEXT / Black Horse / 45 / https://clownandco.org/show/the-black-horse/chapter-46/
+2025-03-17 at 14:59:18 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-46/ / 200
+2025-03-17 at 14:59:18 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-46/
+2025-03-17 at 14:59:18 | INFO | got TEXT / Black Horse / 46 / https://clownandco.org/show/the-black-horse/chapter-47/
+2025-03-17 at 14:59:19 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-47/ / 200
+2025-03-17 at 14:59:19 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-47/
+2025-03-17 at 14:59:19 | INFO | got TEXT / Black Horse / 47 / https://clownandco.org/show/the-black-horse/chapter-48/
+2025-03-17 at 14:59:21 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-48/ / 200
+2025-03-17 at 14:59:21 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-48/
+2025-03-17 at 14:59:21 | INFO | got TEXT / Black Horse / 48 / https://clownandco.org/show/the-black-horse/chapter-49/
+2025-03-17 at 14:59:22 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-49/ / 200
+2025-03-17 at 14:59:22 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-49/
+2025-03-17 at 14:59:22 | INFO | got TEXT / Black Horse / 49 / https://clownandco.org/show/the-black-horse/chapter-50/
+2025-03-17 at 14:59:24 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-50/ / 200
+2025-03-17 at 14:59:24 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-50/
+2025-03-17 at 14:59:24 | INFO | got TEXT / Black Horse / 50 / https://clownandco.org/show/the-black-horse/chapter-51/
+2025-03-17 at 14:59:25 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-51/ / 200
+2025-03-17 at 14:59:25 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-51/
+2025-03-17 at 14:59:25 | INFO | got TEXT / Black Horse / 51 / https://clownandco.org/show/the-black-horse/chapter-52/
+2025-03-17 at 14:59:27 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-52/ / 200
+2025-03-17 at 14:59:27 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-52/
+2025-03-17 at 14:59:27 | INFO | got TEXT / Black Horse / 52 / https://clownandco.org/show/the-black-horse/chapter-53-part-1/
+2025-03-17 at 14:59:29 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-53-part-1/ / 200
+2025-03-17 at 14:59:29 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-53-part-1/
+2025-03-17 at 14:59:29 | INFO | got TEXT / Black Horse / 53 / https://clownandco.org/show/the-black-horse/chapter-53-part-2/
+2025-03-17 at 14:59:31 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-53-part-2/ / 200
+2025-03-17 at 14:59:31 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-53-part-2/
+2025-03-17 at 14:59:31 | INFO | got TEXT / Black Horse / 54 / https://clownandco.org/show/the-black-horse/chapter-54-part-1/
+2025-03-17 at 14:59:32 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-54-part-1/ / 200
+2025-03-17 at 14:59:32 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-54-part-1/
+2025-03-17 at 14:59:32 | INFO | got TEXT / Black Horse / 55 / https://clownandco.org/show/the-black-horse/chapter-54-part-2/
+2025-03-17 at 14:59:35 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-54-part-2/ / 200
+2025-03-17 at 14:59:35 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-54-part-2/
+2025-03-17 at 14:59:35 | INFO | got TEXT / Black Horse / 56 / https://clownandco.org/show/the-black-horse/chapter-55/
+2025-03-17 at 14:59:36 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-55/ / 200
+2025-03-17 at 14:59:36 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-55/
+2025-03-17 at 14:59:37 | INFO | got TEXT / Black Horse / 57 / https://clownandco.org/show/the-black-horse/chapter-56/
+2025-03-17 at 14:59:38 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-56/ / 200
+2025-03-17 at 14:59:38 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-56/
+2025-03-17 at 14:59:38 | INFO | got TEXT / Black Horse / 58 / https://clownandco.org/show/the-black-horse/chapter-56-part-2/
+2025-03-17 at 14:59:40 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-56-part-2/ / 200
+2025-03-17 at 14:59:40 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-56-part-2/
+2025-03-17 at 14:59:40 | INFO | got TEXT / Black Horse / 59 / https://clownandco.org/show/the-black-horse/chapter-57/
+2025-03-17 at 14:59:41 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-57/ / 200
+2025-03-17 at 14:59:41 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-57/
+2025-03-17 at 14:59:41 | INFO | got TEXT / Black Horse / 60 / https://clownandco.org/show/the-black-horse/chapter-58-part-1/
+2025-03-17 at 14:59:43 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-58-part-1/ / 200
+2025-03-17 at 14:59:43 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-58-part-1/
+2025-03-17 at 14:59:43 | INFO | got TEXT / Black Horse / 61 / https://clownandco.org/show/the-black-horse/chapter-58-part-2/
+2025-03-17 at 14:59:44 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-58-part-2/ / 200
+2025-03-17 at 14:59:44 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-58-part-2/
+2025-03-17 at 14:59:44 | INFO | got TEXT / Black Horse / 62 / https://clownandco.org/show/the-black-horse/chapter-58-part-3/
+2025-03-17 at 14:59:46 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-58-part-3/ / 200
+2025-03-17 at 14:59:46 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-58-part-3/
+2025-03-17 at 14:59:46 | INFO | got TEXT / Black Horse / 63 / https://clownandco.org/show/the-black-horse/chapter-58-part-4/
+2025-03-17 at 14:59:47 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-58-part-4/ / 200
+2025-03-17 at 14:59:47 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-58-part-4/
+2025-03-17 at 14:59:47 | INFO | got TEXT / Black Horse / 64 / https://clownandco.org/show/the-black-horse/chapter-58-part-5/
+2025-03-17 at 14:59:49 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-58-part-5/ / 200
+2025-03-17 at 14:59:49 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-58-part-5/
+2025-03-17 at 14:59:49 | INFO | got TEXT / Black Horse / 65 / https://clownandco.org/show/the-black-horse/chapter-58-part-6/
+2025-03-17 at 14:59:50 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-58-part-6/ / 200
+2025-03-17 at 14:59:50 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-58-part-6/
+2025-03-17 at 14:59:50 | INFO | got TEXT / Black Horse / 66 / https://clownandco.org/show/the-black-horse/chapter-59-part-1/
+2025-03-17 at 14:59:52 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-59-part-1/ / 200
+2025-03-17 at 14:59:52 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-59-part-1/
+2025-03-17 at 14:59:52 | INFO | got TEXT / Black Horse / 67 / https://clownandco.org/show/the-black-horse/chapter-59-part-2/
+2025-03-17 at 14:59:53 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-59-part-2/ / 200
+2025-03-17 at 14:59:53 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-59-part-2/
+2025-03-17 at 14:59:53 | INFO | got TEXT / Black Horse / 68 / https://clownandco.org/show/the-black-horse/chapter-59-part-3/
+2025-03-17 at 14:59:55 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-59-part-3/ / 200
+2025-03-17 at 14:59:55 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-59-part-3/
+2025-03-17 at 14:59:55 | INFO | got TEXT / Black Horse / 69 / https://clownandco.org/show/the-black-horse/chapter-59-part-4/
+2025-03-17 at 14:59:57 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-59-part-4/ / 200
+2025-03-17 at 14:59:57 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-59-part-4/
+2025-03-17 at 14:59:57 | INFO | got TEXT / Black Horse / 70 / https://clownandco.org/show/the-black-horse/chapter-59-part-5/
+2025-03-17 at 14:59:58 | INFO | Black Horse / https://clownandco.org/show/the-black-horse/chapter-59-part-5/ / 200
+2025-03-17 at 14:59:58 | INFO | got PAGE / Black Horse / https://clownandco.org/show/the-black-horse/chapter-59-part-5/
+2025-03-17 at 14:59:58 | INFO | got TEXT / Black Horse / 71 / None
+2025-03-17 at 14:59:58 | INFO | Parsing finished / Black Horse
+2025-03-17 at 17:04:14 | INFO | Webpage name is crimsonnovels.com
+2025-03-17 at 17:04:14 | INFO | Song / https://www.crimsonnovels.com/133-song-quan-and-shen-hao-hao / 200
+2025-03-17 at 17:04:14 | INFO | got PAGE / Song / https://www.crimsonnovels.com/133-song-quan-and-shen-hao-hao
+2025-03-17 at 17:04:14 | ERROR | parsing error / cannot access local variable 'next_link' where it is not associated with a value
+2025-03-17 at 17:06:27 | INFO | Webpage name is crimsonnovels.com
+2025-03-17 at 17:06:27 | INFO | Song / https://www.crimsonnovels.com/133-song-quan-and-shen-hao-hao/1324 / 200
+2025-03-17 at 17:06:27 | INFO | got PAGE / Song / https://www.crimsonnovels.com/133-song-quan-and-shen-hao-hao/1324
+2025-03-17 at 17:06:27 | ERROR | parsing error / cannot access local variable 'next_link' where it is not associated with a value
+2025-03-17 at 17:09:05 | INFO | Webpage name is crimsonnovels.com
+2025-03-17 at 17:09:11 | INFO | Song / https://www.crimsonnovels.com/133-song-quan-and-shen-hao-hao/1324 / 200
+2025-03-17 at 17:09:11 | INFO | Parsing finished / Song
+2025-03-17 at 17:10:28 | INFO | Webpage name is crimsonnovels.com
+2025-03-17 at 17:10:36 | INFO | Song / https://www.crimsonnovels.com/133-song-quan-and-shen-hao-hao/1324 / 200
+2025-03-17 at 17:10:36 | INFO | Parsing finished / Song
