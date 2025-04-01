@@ -654,5 +654,13 @@
             "word": "Next",
             "tool": "requests"
         }
+    ],
+    "untamedalley.com": [
+        {
+            "tag": "section",
+            "extra_tag": "chapter__content content-section",
+            "word": "Next",
+            "tool": "requests"
+        }
     ]
 }
