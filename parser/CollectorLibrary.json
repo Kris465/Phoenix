@@ -375,5 +375,15 @@
             "sort": "noSort",
             "tool": "requests"
         }
-    ]
+    ],
+    "banxia.la": [
+        {
+            "tag": "article",
+            "extra_tag": "article-content",
+            "sort": "area_sort",
+            "tool": "zh",
+            "area_tag": "ul",
+            "area_extra_tag":"book-list clearfix"
+        }
+    ],
 }
